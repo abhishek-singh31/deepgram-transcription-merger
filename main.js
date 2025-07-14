@@ -53,6 +53,7 @@ class MediaStreamHandler {
       this.companyid = null;
       this.participants = {};
       this.call_flow_type = null;
+      this.stream_start_time_in_epoch_seconds = null;
   
       //test
       this.deepresponse = [];
@@ -106,6 +107,7 @@ class MediaStreamHandler {
                 console.log("Websocket stream start");
                 this.metaData = data.start;
                 this.call_flow_type = this.metaData.customParameters.call_flow_type;
+                this.stream_start_time_in_epoch_seconds = this.metaData.customParameters.stream_start_time_in_epoch_seconds;
                 this.startTime = Math.round(Date.now() / 1000);
                 this.isMediaStream = true;
                 this.completetranscription = "";
@@ -283,7 +285,14 @@ class MediaStreamHandler {
                     }
                     
                     // Write file to transcriptions folder
-                    const filePath = path.join(transcriptionsDir, `transcription-${returnarray["callsid"]}.json`);
+                    let transcriptionFileName = `transcription-${returnarray["callsid"]}.json`;
+                    if(_this.metaData.customParameters.call_flow_type === "normal"){
+                        transcriptionFileName = `transcription-normal.json`;
+                    } else {
+                        transcriptionFileName = `transcription-${_this.metaData.customParameters.track1_label}.json`;
+                    }
+                    
+                    const filePath = path.join(transcriptionsDir, transcriptionFileName);
                     fs.writeFile(filePath, JSON.stringify(returnarray), (err) => {
                         if (err) {
                             console.error("Error writing transcription file:", err);

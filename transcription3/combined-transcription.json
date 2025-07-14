@@ -1,0 +1,2639 @@
+{
+  "transcription": [
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Hello.",
+                  "startTime": {
+                    "seconds": 1,
+                    "nanos": "800000000",
+                    "finalseconds": 1,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 2,
+                    "nanos": "300000000",
+                    "finalseconds": 2,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "Thank",
+                  "startTime": {
+                    "seconds": 2,
+                    "nanos": "600000000",
+                    "finalseconds": 2,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 2,
+                    "nanos": "800000000",
+                    "finalseconds": 2,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 2,
+                    "nanos": "800000000",
+                    "finalseconds": 2,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 2,
+                    "nanos": "900000000",
+                    "finalseconds": 2,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "for",
+                  "startTime": {
+                    "seconds": 2,
+                    "nanos": "900000000",
+                    "finalseconds": 2,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 3,
+                    "nanos": "100000000",
+                    "finalseconds": 3,
+                    "finalnanos": "100000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "calling",
+                  "startTime": {
+                    "seconds": 3,
+                    "nanos": "100000000",
+                    "finalseconds": 3,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 3,
+                    "nanos": "400000000",
+                    "finalseconds": 3,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "one",
+                  "startTime": {
+                    "seconds": 3,
+                    "nanos": "400000000",
+                    "finalseconds": 3,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 3,
+                    "nanos": "700000000",
+                    "finalseconds": 3,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "hundred",
+                  "startTime": {
+                    "seconds": 3,
+                    "nanos": "700000000",
+                    "finalseconds": 3,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 3,
+                    "nanos": "900000000",
+                    "finalseconds": 3,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "and",
+                  "startTime": {
+                    "seconds": 3,
+                    "nanos": "900000000",
+                    "finalseconds": 3,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "100000000",
+                    "finalseconds": 4,
+                    "finalnanos": "100000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "twenty",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "100000000",
+                    "finalseconds": 4,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "300000000",
+                    "finalseconds": 4,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "three.",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "300000000",
+                    "finalseconds": 4,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "600000000",
+                    "finalseconds": 4,
+                    "finalnanos": "600000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "600000000",
+                    "finalseconds": 4,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "600000000",
+                    "finalseconds": 4,
+                    "finalnanos": "600000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "am",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "600000000",
+                    "finalseconds": 4,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "900000000",
+                    "finalseconds": 4,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "Anna.",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "900000000",
+                    "finalseconds": 4,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 5,
+                    "nanos": "200000000",
+                    "finalseconds": 5,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "How",
+                  "startTime": {
+                    "seconds": 5,
+                    "nanos": "200000000",
+                    "finalseconds": 5,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 5,
+                    "nanos": "400000000",
+                    "finalseconds": 5,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "are",
+                  "startTime": {
+                    "seconds": 5,
+                    "nanos": "400000000",
+                    "finalseconds": 5,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 5,
+                    "nanos": "400000000",
+                    "finalseconds": 5,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 5,
+                    "nanos": "400000000",
+                    "finalseconds": 5,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 5,
+                    "nanos": "600000000",
+                    "finalseconds": 5,
+                    "finalnanos": "600000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "doing?",
+                  "startTime": {
+                    "seconds": 5,
+                    "nanos": "600000000",
+                    "finalseconds": 5,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 6,
+                    "nanos": "100000000",
+                    "finalseconds": 6,
+                    "finalnanos": "100000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                }
+              ],
+              "transcript": "Hello. Thank you for calling one hundred and twenty three. I am Anna. How are you doing?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 6,
+            "nanos": "100000000",
+            "finalseconds": 6,
+            "finalnanos": "100000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "I'm",
+                  "startTime": {
+                    "seconds": 6,
+                    "nanos": "500000000",
+                    "finalseconds": 6,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 6,
+                    "nanos": "700000000",
+                    "finalseconds": 6,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "doing",
+                  "startTime": {
+                    "seconds": 6,
+                    "nanos": "700000000",
+                    "finalseconds": 6,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 7,
+                    "nanos": "000000000",
+                    "finalseconds": 7,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "very",
+                  "startTime": {
+                    "seconds": 7,
+                    "nanos": "000000000",
+                    "finalseconds": 7,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 7,
+                    "nanos": "200000000",
+                    "finalseconds": 7,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "bad.",
+                  "startTime": {
+                    "seconds": 7,
+                    "nanos": "200000000",
+                    "finalseconds": 7,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 7,
+                    "nanos": "700000000",
+                    "finalseconds": 7,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                }
+              ],
+              "transcript": "I'm doing very bad.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 7,
+            "nanos": "700000000",
+            "finalseconds": 7,
+            "finalnanos": "700000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "debjyoti"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "I'm",
+                  "startTime": {
+                    "seconds": 9,
+                    "nanos": "300000000",
+                    "finalseconds": 9,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 9,
+                    "nanos": "600000000",
+                    "finalseconds": 9,
+                    "finalnanos": "600000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "really",
+                  "startTime": {
+                    "seconds": 9,
+                    "nanos": "600000000",
+                    "finalseconds": 9,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 9,
+                    "nanos": "700000000",
+                    "finalseconds": 9,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "sorry",
+                  "startTime": {
+                    "seconds": 9,
+                    "nanos": "700000000",
+                    "finalseconds": 9,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 10,
+                    "nanos": "000000000",
+                    "finalseconds": 10,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "to",
+                  "startTime": {
+                    "seconds": 10,
+                    "nanos": "000000000",
+                    "finalseconds": 10,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 10,
+                    "nanos": "200000000",
+                    "finalseconds": 10,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "hear",
+                  "startTime": {
+                    "seconds": 10,
+                    "nanos": "200000000",
+                    "finalseconds": 10,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 10,
+                    "nanos": "400000000",
+                    "finalseconds": 10,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "that.",
+                  "startTime": {
+                    "seconds": 10,
+                    "nanos": "400000000",
+                    "finalseconds": 10,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 10,
+                    "nanos": "700000000",
+                    "finalseconds": 10,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "There",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "000000000",
+                    "finalseconds": 11,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 11,
+                    "nanos": "300000000",
+                    "finalseconds": 11,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "anything",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "300000000",
+                    "finalseconds": 11,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 11,
+                    "nanos": "300000000",
+                    "finalseconds": 11,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "300000000",
+                    "finalseconds": 11,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 11,
+                    "nanos": "400000000",
+                    "finalseconds": 11,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "can",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "400000000",
+                    "finalseconds": 11,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 11,
+                    "nanos": "500000000",
+                    "finalseconds": 11,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "assist",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "500000000",
+                    "finalseconds": 11,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 11,
+                    "nanos": "800000000",
+                    "finalseconds": 11,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "800000000",
+                    "finalseconds": 11,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "100000000",
+                    "finalseconds": 12,
+                    "finalnanos": "100000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "with",
+                  "startTime": {
+                    "seconds": 12,
+                    "nanos": "100000000",
+                    "finalseconds": 12,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "400000000",
+                    "finalseconds": 12,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "to",
+                  "startTime": {
+                    "seconds": 12,
+                    "nanos": "400000000",
+                    "finalseconds": 12,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "700000000",
+                    "finalseconds": 12,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "make",
+                  "startTime": {
+                    "seconds": 12,
+                    "nanos": "700000000",
+                    "finalseconds": 12,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "900000000",
+                    "finalseconds": 12,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "things",
+                  "startTime": {
+                    "seconds": 12,
+                    "nanos": "900000000",
+                    "finalseconds": 12,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 13,
+                    "nanos": "200000000",
+                    "finalseconds": 13,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "a",
+                  "startTime": {
+                    "seconds": 13,
+                    "nanos": "200000000",
+                    "finalseconds": 13,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 13,
+                    "nanos": "300000000",
+                    "finalseconds": 13,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "bit",
+                  "startTime": {
+                    "seconds": 13,
+                    "nanos": "300000000",
+                    "finalseconds": 13,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 13,
+                    "nanos": "400000000",
+                    "finalseconds": 13,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "easier?",
+                  "startTime": {
+                    "seconds": 13,
+                    "nanos": "400000000",
+                    "finalseconds": 13,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 13,
+                    "nanos": "400000000",
+                    "finalseconds": 13,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                }
+              ],
+              "transcript": "I'm really sorry to hear that. There anything I can assist you with to make things a bit easier?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 13,
+            "nanos": "400000000",
+            "finalseconds": 13,
+            "finalnanos": "400000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "You",
+                  "startTime": {
+                    "seconds": 13,
+                    "nanos": "900000000",
+                    "finalseconds": 13,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 14,
+                    "nanos": "000000000",
+                    "finalseconds": 14,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "can",
+                  "startTime": {
+                    "seconds": 14,
+                    "nanos": "000000000",
+                    "finalseconds": 14,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 14,
+                    "nanos": "200000000",
+                    "finalseconds": 14,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "just",
+                  "startTime": {
+                    "seconds": 14,
+                    "nanos": "200000000",
+                    "finalseconds": 14,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 14,
+                    "nanos": "500000000",
+                    "finalseconds": 14,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "stay",
+                  "startTime": {
+                    "seconds": 14,
+                    "nanos": "500000000",
+                    "finalseconds": 14,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 14,
+                    "nanos": "900000000",
+                    "finalseconds": 14,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "quiet",
+                  "startTime": {
+                    "seconds": 14,
+                    "nanos": "900000000",
+                    "finalseconds": 14,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 15,
+                    "nanos": "300000000",
+                    "finalseconds": 15,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "for",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "500000000",
+                    "finalseconds": 15,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 15,
+                    "nanos": "800000000",
+                    "finalseconds": 15,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "five",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "800000000",
+                    "finalseconds": 15,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 16,
+                    "nanos": "100000000",
+                    "finalseconds": 16,
+                    "finalnanos": "100000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "minute.",
+                  "startTime": {
+                    "seconds": 16,
+                    "nanos": "100000000",
+                    "finalseconds": 16,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 16,
+                    "nanos": "300000000",
+                    "finalseconds": 16,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                }
+              ],
+              "transcript": "You can just stay quiet for five minute.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 16,
+            "nanos": "300000000",
+            "finalseconds": 16,
+            "finalnanos": "300000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "debjyoti"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 18,
+                    "nanos": "200000000",
+                    "finalseconds": 18,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 18,
+                    "nanos": "400000000",
+                    "finalseconds": 18,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "understand.",
+                  "startTime": {
+                    "seconds": 18,
+                    "nanos": "400000000",
+                    "finalseconds": 18,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 18,
+                    "nanos": "900000000",
+                    "finalseconds": 18,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "Take",
+                  "startTime": {
+                    "seconds": 19,
+                    "nanos": "200000000",
+                    "finalseconds": 19,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 19,
+                    "nanos": "400000000",
+                    "finalseconds": 19,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "your",
+                  "startTime": {
+                    "seconds": 19,
+                    "nanos": "400000000",
+                    "finalseconds": 19,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 19,
+                    "nanos": "600000000",
+                    "finalseconds": 19,
+                    "finalnanos": "600000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "time",
+                  "startTime": {
+                    "seconds": 19,
+                    "nanos": "600000000",
+                    "finalseconds": 19,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 19,
+                    "nanos": "900000000",
+                    "finalseconds": 19,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "and",
+                  "startTime": {
+                    "seconds": 19,
+                    "nanos": "900000000",
+                    "finalseconds": 19,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "000000000",
+                    "finalseconds": 20,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "let",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "000000000",
+                    "finalseconds": 20,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "000000000",
+                    "finalseconds": 20,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "me",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "000000000",
+                    "finalseconds": 20,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "200000000",
+                    "finalseconds": 20,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "know",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "200000000",
+                    "finalseconds": 20,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "400000000",
+                    "finalseconds": 20,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "if",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "400000000",
+                    "finalseconds": 20,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "500000000",
+                    "finalseconds": 20,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "500000000",
+                    "finalseconds": 20,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "700000000",
+                    "finalseconds": 20,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "need",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "700000000",
+                    "finalseconds": 20,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "900000000",
+                    "finalseconds": 20,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                },
+                {
+                  "word": "anything.",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "900000000",
+                    "finalseconds": 20,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 21,
+                    "nanos": "400000000",
+                    "finalseconds": 21,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "+18559421624",
+                  "track": 0
+                }
+              ],
+              "transcript": "I understand. Take your time and let me know if you need anything.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 21,
+            "nanos": "400000000",
+            "finalseconds": 21,
+            "finalnanos": "400000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Hello,",
+                  "startTime": {
+                    "seconds": 44,
+                    "nanos": "600000000",
+                    "finalseconds": 44,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 44,
+                    "nanos": "800000000",
+                    "finalseconds": 44,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "Can",
+                  "startTime": {
+                    "seconds": 45,
+                    "nanos": "400000000",
+                    "finalseconds": 45,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 45,
+                    "nanos": "500000000",
+                    "finalseconds": 45,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 45,
+                    "nanos": "500000000",
+                    "finalseconds": 45,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 45,
+                    "nanos": "600000000",
+                    "finalseconds": 45,
+                    "finalnanos": "600000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "hear",
+                  "startTime": {
+                    "seconds": 45,
+                    "nanos": "600000000",
+                    "finalseconds": 45,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 45,
+                    "nanos": "800000000",
+                    "finalseconds": 45,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "me?",
+                  "startTime": {
+                    "seconds": 45,
+                    "nanos": "800000000",
+                    "finalseconds": 45,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 46,
+                    "nanos": "100000000",
+                    "finalseconds": 46,
+                    "finalnanos": "100000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                }
+              ],
+              "transcript": "Hello, Can you hear me?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 46,
+            "nanos": "100000000",
+            "finalseconds": 46,
+            "finalnanos": "100000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Yeah.",
+                  "startTime": {
+                    "seconds": 46,
+                    "nanos": "800000000",
+                    "finalseconds": 46,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 47,
+                    "nanos": "000000000",
+                    "finalseconds": 47,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 47,
+                    "nanos": "000000000",
+                    "finalseconds": 47,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 47,
+                    "nanos": "200000000",
+                    "finalseconds": 47,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "can",
+                  "startTime": {
+                    "seconds": 47,
+                    "nanos": "200000000",
+                    "finalseconds": 47,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 47,
+                    "nanos": "400000000",
+                    "finalseconds": 47,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "hear",
+                  "startTime": {
+                    "seconds": 47,
+                    "nanos": "400000000",
+                    "finalseconds": 47,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 47,
+                    "nanos": "600000000",
+                    "finalseconds": 47,
+                    "finalnanos": "600000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "you.",
+                  "startTime": {
+                    "seconds": 47,
+                    "nanos": "600000000",
+                    "finalseconds": 47,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 48,
+                    "nanos": "000000000",
+                    "finalseconds": 48,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "Can",
+                  "startTime": {
+                    "seconds": 48,
+                    "nanos": "700000000",
+                    "finalseconds": 48,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 48,
+                    "nanos": "900000000",
+                    "finalseconds": 48,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 48,
+                    "nanos": "900000000",
+                    "finalseconds": 48,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 49,
+                    "nanos": "000000000",
+                    "finalseconds": 49,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "hear",
+                  "startTime": {
+                    "seconds": 49,
+                    "nanos": "000000000",
+                    "finalseconds": 49,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 49,
+                    "nanos": "200000000",
+                    "finalseconds": 49,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "me",
+                  "startTime": {
+                    "seconds": 49,
+                    "nanos": "200000000",
+                    "finalseconds": 49,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 49,
+                    "nanos": "500000000",
+                    "finalseconds": 49,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "properly?",
+                  "startTime": {
+                    "seconds": 49,
+                    "nanos": "500000000",
+                    "finalseconds": 49,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 50,
+                    "nanos": "000000000",
+                    "finalseconds": 50,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                }
+              ],
+              "transcript": "Yeah. I can hear you. Can you hear me properly?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 50,
+            "nanos": "000000000",
+            "finalseconds": 50,
+            "finalnanos": "000000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "debjyoti"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Yes.",
+                  "startTime": {
+                    "seconds": 50,
+                    "nanos": "700000000",
+                    "finalseconds": 50,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 51,
+                    "nanos": "100000000",
+                    "finalseconds": 51,
+                    "finalnanos": "100000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 51,
+                    "nanos": "100000000",
+                    "finalseconds": 51,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 51,
+                    "nanos": "200000000",
+                    "finalseconds": 51,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "can",
+                  "startTime": {
+                    "seconds": 51,
+                    "nanos": "200000000",
+                    "finalseconds": 51,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 51,
+                    "nanos": "500000000",
+                    "finalseconds": 51,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "hear",
+                  "startTime": {
+                    "seconds": 51,
+                    "nanos": "500000000",
+                    "finalseconds": 51,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 51,
+                    "nanos": "800000000",
+                    "finalseconds": 51,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "you,",
+                  "startTime": {
+                    "seconds": 51,
+                    "nanos": "800000000",
+                    "finalseconds": 51,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 52,
+                    "nanos": "000000000",
+                    "finalseconds": 52,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                }
+              ],
+              "transcript": "Yes. I can hear you,",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 52,
+            "nanos": "000000000",
+            "finalseconds": 52,
+            "finalnanos": "000000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Okay.",
+                  "startTime": {
+                    "seconds": 52,
+                    "nanos": "700000000",
+                    "finalseconds": 52,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 53,
+                    "nanos": "000000000",
+                    "finalseconds": 53,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "Nice.",
+                  "startTime": {
+                    "seconds": 53,
+                    "nanos": "000000000",
+                    "finalseconds": 53,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 53,
+                    "nanos": "500000000",
+                    "finalseconds": 53,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "Great.",
+                  "startTime": {
+                    "seconds": 53,
+                    "nanos": "700000000",
+                    "finalseconds": 53,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 54,
+                    "nanos": "000000000",
+                    "finalseconds": 54,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "Is",
+                  "startTime": {
+                    "seconds": 54,
+                    "nanos": "000000000",
+                    "finalseconds": 54,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 54,
+                    "nanos": "200000000",
+                    "finalseconds": 54,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "it",
+                  "startTime": {
+                    "seconds": 54,
+                    "nanos": "200000000",
+                    "finalseconds": 54,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 54,
+                    "nanos": "400000000",
+                    "finalseconds": 54,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "echo",
+                  "startTime": {
+                    "seconds": 54,
+                    "nanos": "400000000",
+                    "finalseconds": 54,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 54,
+                    "nanos": "500000000",
+                    "finalseconds": 54,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "echoing",
+                  "startTime": {
+                    "seconds": 54,
+                    "nanos": "700000000",
+                    "finalseconds": 54,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 55,
+                    "nanos": "200000000",
+                    "finalseconds": 55,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "right",
+                  "startTime": {
+                    "seconds": 55,
+                    "nanos": "300000000",
+                    "finalseconds": 55,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 55,
+                    "nanos": "500000000",
+                    "finalseconds": 55,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "now?",
+                  "startTime": {
+                    "seconds": 55,
+                    "nanos": "500000000",
+                    "finalseconds": 55,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 56,
+                    "nanos": "000000000",
+                    "finalseconds": 56,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                }
+              ],
+              "transcript": "Okay. Nice. Great. Is it echo echoing right now?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 56,
+            "nanos": "000000000",
+            "finalseconds": 56,
+            "finalnanos": "000000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "debjyoti"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "No.",
+                  "startTime": {
+                    "seconds": 57,
+                    "nanos": "500000000",
+                    "finalseconds": 57,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 57,
+                    "nanos": "700000000",
+                    "finalseconds": 57,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "No.",
+                  "startTime": {
+                    "seconds": 57,
+                    "nanos": "700000000",
+                    "finalseconds": 57,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 57,
+                    "nanos": "900000000",
+                    "finalseconds": 57,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "Not",
+                  "startTime": {
+                    "seconds": 57,
+                    "nanos": "900000000",
+                    "finalseconds": 57,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 58,
+                    "nanos": "100000000",
+                    "finalseconds": 58,
+                    "finalnanos": "100000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 58,
+                    "nanos": "100000000",
+                    "finalseconds": 58,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 58,
+                    "nanos": "300000000",
+                    "finalseconds": 58,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "can.",
+                  "startTime": {
+                    "seconds": 58,
+                    "nanos": "300000000",
+                    "finalseconds": 58,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 58,
+                    "nanos": "700000000",
+                    "finalseconds": 58,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                }
+              ],
+              "transcript": "No. No. Not I can.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 58,
+            "nanos": "700000000",
+            "finalseconds": 58,
+            "finalnanos": "700000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Okay.",
+                  "startTime": {
+                    "seconds": 59,
+                    "nanos": "100000000",
+                    "finalseconds": 59,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 59,
+                    "nanos": "500000000",
+                    "finalseconds": 59,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "Fine.",
+                  "startTime": {
+                    "seconds": 59,
+                    "nanos": "500000000",
+                    "finalseconds": 59,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 59,
+                    "nanos": "900000000",
+                    "finalseconds": 59,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "So",
+                  "startTime": {
+                    "seconds": 59,
+                    "nanos": "900000000",
+                    "finalseconds": 59,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 60,
+                    "nanos": "200000000",
+                    "finalseconds": 60,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "what",
+                  "startTime": {
+                    "seconds": 60,
+                    "nanos": "200000000",
+                    "finalseconds": 60,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 60,
+                    "nanos": "300000000",
+                    "finalseconds": 60,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "is",
+                  "startTime": {
+                    "seconds": 60,
+                    "nanos": "300000000",
+                    "finalseconds": 60,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 60,
+                    "nanos": "400000000",
+                    "finalseconds": 60,
+                    "finalnanos": "400000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "the",
+                  "startTime": {
+                    "seconds": 60,
+                    "nanos": "400000000",
+                    "finalseconds": 60,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 60,
+                    "nanos": "600000000",
+                    "finalseconds": 60,
+                    "finalnanos": "600000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "what's",
+                  "startTime": {
+                    "seconds": 60,
+                    "nanos": "700000000",
+                    "finalseconds": 60,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 60,
+                    "nanos": "900000000",
+                    "finalseconds": 60,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "your",
+                  "startTime": {
+                    "seconds": 60,
+                    "nanos": "900000000",
+                    "finalseconds": 60,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 61,
+                    "nanos": "100000000",
+                    "finalseconds": 61,
+                    "finalnanos": "100000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "plan",
+                  "startTime": {
+                    "seconds": 61,
+                    "nanos": "100000000",
+                    "finalseconds": 61,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 61,
+                    "nanos": "300000000",
+                    "finalseconds": 61,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "today",
+                  "startTime": {
+                    "seconds": 61,
+                    "nanos": "300000000",
+                    "finalseconds": 61,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 61,
+                    "nanos": "800000000",
+                    "finalseconds": 61,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "after",
+                  "startTime": {
+                    "seconds": 61,
+                    "nanos": "800000000",
+                    "finalseconds": 61,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 62,
+                    "nanos": "200000000",
+                    "finalseconds": 62,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "wrapping",
+                  "startTime": {
+                    "seconds": 62,
+                    "nanos": "200000000",
+                    "finalseconds": 62,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 62,
+                    "nanos": "700000000",
+                    "finalseconds": 62,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                }
+              ],
+              "transcript": "Okay. Fine. So what is the what's your plan today after wrapping",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 62,
+            "nanos": "700000000",
+            "finalseconds": 62,
+            "finalnanos": "700000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "debjyoti"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "up?",
+                  "startTime": {
+                    "seconds": 63,
+                    "nanos": "000000000",
+                    "finalseconds": 63,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 63,
+                    "nanos": "500000000",
+                    "finalseconds": 63,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                }
+              ],
+              "transcript": "up?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 63,
+            "nanos": "500000000",
+            "finalseconds": 63,
+            "finalnanos": "500000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "debjyoti"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "I'll",
+                  "startTime": {
+                    "seconds": 63,
+                    "nanos": "000000000",
+                    "finalseconds": 63,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 63,
+                    "nanos": "500000000",
+                    "finalseconds": 63,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                }
+              ],
+              "transcript": "I'll",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 63,
+            "nanos": "500000000",
+            "finalseconds": 63,
+            "finalnanos": "500000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "talk",
+                  "startTime": {
+                    "seconds": 63,
+                    "nanos": "700000000",
+                    "finalseconds": 63,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 64,
+                    "nanos": "200000000",
+                    "finalseconds": 64,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "to",
+                  "startTime": {
+                    "seconds": 64,
+                    "nanos": "400000000",
+                    "finalseconds": 64,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 64,
+                    "nanos": "900000000",
+                    "finalseconds": 64,
+                    "finalnanos": "900000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "his",
+                  "startTime": {
+                    "seconds": 65,
+                    "nanos": "100000000",
+                    "finalseconds": 65,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 65,
+                    "nanos": "600000000",
+                    "finalseconds": 65,
+                    "finalnanos": "600000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "good",
+                  "startTime": {
+                    "seconds": 65,
+                    "nanos": "900000000",
+                    "finalseconds": 65,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 66,
+                    "nanos": "200000000",
+                    "finalseconds": 66,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "sleep.",
+                  "startTime": {
+                    "seconds": 66,
+                    "nanos": "200000000",
+                    "finalseconds": 66,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 66,
+                    "nanos": "700000000",
+                    "finalseconds": 66,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                },
+                {
+                  "word": "Early.",
+                  "startTime": {
+                    "seconds": 67,
+                    "nanos": "700000000",
+                    "finalseconds": 67,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 67,
+                    "nanos": "800000000",
+                    "finalseconds": 67,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                }
+              ],
+              "transcript": "talk to his good sleep. Early.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 67,
+            "nanos": "800000000",
+            "finalseconds": 67,
+            "finalnanos": "800000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Oh,",
+                  "startTime": {
+                    "seconds": 68,
+                    "nanos": "400000000",
+                    "finalseconds": 68,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 68,
+                    "nanos": "700000000",
+                    "finalseconds": 68,
+                    "finalnanos": "700000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "okay.",
+                  "startTime": {
+                    "seconds": 68,
+                    "nanos": "700000000",
+                    "finalseconds": 68,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 69,
+                    "nanos": "000000000",
+                    "finalseconds": 69,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "Okay.",
+                  "startTime": {
+                    "seconds": 69,
+                    "nanos": "000000000",
+                    "finalseconds": 69,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 69,
+                    "nanos": "500000000",
+                    "finalseconds": 69,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "Fine,",
+                  "startTime": {
+                    "seconds": 69,
+                    "nanos": "500000000",
+                    "finalseconds": 69,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 69,
+                    "nanos": "800000000",
+                    "finalseconds": 69,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "man.",
+                  "startTime": {
+                    "seconds": 69,
+                    "nanos": "800000000",
+                    "finalseconds": 69,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 70,
+                    "nanos": "300000000",
+                    "finalseconds": 70,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "That's",
+                  "startTime": {
+                    "seconds": 70,
+                    "nanos": "900000000",
+                    "finalseconds": 70,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 71,
+                    "nanos": "200000000",
+                    "finalseconds": 71,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "good,",
+                  "startTime": {
+                    "seconds": 71,
+                    "nanos": "200000000",
+                    "finalseconds": 71,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 71,
+                    "nanos": "500000000",
+                    "finalseconds": 71,
+                    "finalnanos": "500000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                },
+                {
+                  "word": "man.",
+                  "startTime": {
+                    "seconds": 71,
+                    "nanos": "500000000",
+                    "finalseconds": 71,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 71,
+                    "nanos": "800000000",
+                    "finalseconds": 71,
+                    "finalnanos": "800000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                }
+              ],
+              "transcript": "Oh, okay. Okay. Fine, man. That's good, man.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 71,
+            "nanos": "800000000",
+            "finalseconds": 71,
+            "finalnanos": "800000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "debjyoti"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Bye",
+                  "startTime": {
+                    "seconds": 71,
+                    "nanos": "500000000",
+                    "finalseconds": 71,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 72,
+                    "nanos": "000000000",
+                    "finalseconds": 72,
+                    "finalnanos": "000000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                }
+              ],
+              "transcript": "Bye",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 72,
+            "nanos": "000000000",
+            "finalseconds": 72,
+            "finalnanos": "000000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Bye.",
+                  "startTime": {
+                    "seconds": 71,
+                    "nanos": "800000000",
+                    "finalseconds": 71,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 72,
+                    "nanos": "300000000",
+                    "finalseconds": 72,
+                    "finalnanos": "300000000"
+                  },
+                  "participant_label": "debjyoti",
+                  "track": 1
+                }
+              ],
+              "transcript": "Bye.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 72,
+            "nanos": "300000000",
+            "finalseconds": 72,
+            "finalnanos": "300000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "debjyoti"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "bye.",
+                  "startTime": {
+                    "seconds": 72,
+                    "nanos": "700000000",
+                    "finalseconds": 72,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 73,
+                    "nanos": "200000000",
+                    "finalseconds": 73,
+                    "finalnanos": "200000000"
+                  },
+                  "participant_label": "abhishek",
+                  "track": 1
+                }
+              ],
+              "transcript": "bye.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": {
+            "seconds": 73,
+            "nanos": "200000000",
+            "finalseconds": 73,
+            "finalnanos": "200000000"
+          },
+          "sno": 1752510782903,
+          "requestid": "combined-1752510782903",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    }
+  ],
+  "completetranscription": "Hello. Thank you for calling one hundred and twenty three. I am Anna. How are you doing? I'm doing very bad. I'm really sorry to hear that. There anything I can assist you with to make things a bit easier? You can just stay quiet for five minute. I understand. Take your time and let me know if you need anything. Hello, Can you hear me? Yeah. I can hear you. Can you hear me properly? Yes. I can hear you, Okay. Nice. Great. Is it echo echoing right now? No. No. Not I can. Okay. Fine. So what is the what's your plan today after wrapping I'll up? talk to his good sleep. Early. Oh, okay. Okay. Fine, man. That's good, man. Bye Bye. bye.",
+  "datetime": 1752509807,
+  "startTime": 1752509727,
+  "endTime": 1752509807,
+  "metadata": {
+    "accountSid": "AC3b6ada2609ecb3e3faa82bfe0564a4ac",
+    "streamSid": "MZa14cb8117a4823e4d1836ae98067f623",
+    "callSid": "CAf727b913dd9d797a8a4820981385787c",
+    "tracks": [
+      "inbound",
+      "outbound"
+    ],
+    "mediaFormat": {
+      "encoding": "audio/x-mulaw",
+      "sampleRate": 8000,
+      "channels": 1
+    },
+    "customParameters": {
+      "call_flow_type": "merged",
+      "track1_label": "debjyoti",
+      "track0_label": "+18559421624"
+    }
+  },
+  "callduration": 71,
+  "callsid": "combined"
+}
