@@ -1,3 +1,5 @@
+const { writeFile, mkdirSync, existsSync } = require("fs");
+const { join } = require("path");
 const express = require("express");
 const http = require("http");
 const WebSocket = require("ws");
@@ -228,86 +230,81 @@ class MediaStreamHandler {
     }
   }
 
-  close() {
-    const _this = this;
-    if (this.isMediaStream) {
-      clearInterval(_this.logsinterval);
-      //sending end signal to deepgram
-      if (_this.deepHandlers["outbound"]) {
-        _this.deepHandlers["outbound"].send(new Uint8Array(0));
-      }
+close() {
+  if (!this.isMediaStream) return;
 
-      if (_this.deepHandlers["inbound"]) {
-        _this.deepHandlers["inbound"].send(new Uint8Array(0));
-      }
+  clearInterval(this.logsinterval);
 
-      _this.endTime = Math.round(Date.now() / 1000);
+  // Send zero-byte to close Deepgram streams
+  ["inbound", "outbound"].forEach((track) => {
+    this.deepHandlers[track]?.send(new Uint8Array(0));
+  });
 
-      setTimeout(function () {
-        var returnarray = {};
-        returnarray["transcription"] = _this.finalarrray;
-        returnarray["completetranscription"] = _this.completetranscription;
-        returnarray["datetime"] = Math.round(_this.endTime);
-        returnarray["startTime"] = Math.round(_this.startTime);
-        returnarray["endTime"] = Math.round(_this.endTime);
-        returnarray["participant_label"] = _this.participant_label;
-        returnarray["metadata"] = _this.metaData;
-        returnarray["callduration"] = Math.round(
-          _this.endTime - _this.startTime
-        );
+  this.endTime = Math.floor(Date.now() / 1000);
 
-        console.log("Media WS: closed");
-        for (let track of Object.keys(_this.deepHandlers)) {
-          _this.deepHandlers[track].close();
-        }
+  setTimeout(() => {
+    const startTime = this.startTime || this.endTime;
+    const callDuration = this.endTime - startTime;
 
-        try {
-          // store in file
+    const result = {
+      transcription: this.finalarrray,
+      completetranscription: this.completetranscription,
+      datetime: this.endTime,
+      startTime,
+      endTime: this.endTime,
+      callduration: callDuration,
+      participant_label: this.participant_label || "",
+      metadata: this.metaData || {},
+    };
 
-          // Create transcriptions directory if it doesn't exist
-          const transcriptionsDir = path.join(__dirname, "transcriptions");
-          if (!fs.existsSync(transcriptionsDir)) {
-            fs.mkdirSync(transcriptionsDir, { recursive: true });
-          }
+    console.log("Media WS: closed");
 
-          // Write file to transcriptions folder
-          let transcriptionFileName = `transcription-${returnarray["callsid"]}.json`;
-          if (_this.metaData.customParameters.call_flow_type === "normal") {
-            transcriptionFileName = `transcription-normal.json`;
-          } else {
-            transcriptionFileName = `transcription-${_this.metaData.customParameters.track1_label}.json`;
-          }
-
-          const filePath = path.join(transcriptionsDir, transcriptionFileName);
-          fs.writeFile(filePath, JSON.stringify(returnarray), (err) => {
-            if (err) {
-              console.error("Error writing transcription file:", err);
-            } else {
-              console.log("Transcription saved successfully");
-            }
-          });
-        } catch (error) {
-          console.log("Error in transcription.json:", error);
-        }
-      }, 3000);
-    }
-  }
-
-  closeConnection(reason = "") {
-    if (this.isMediaStream) {
-      // do not accidently close the media stream connection
-      return;
+    // Close Deepgram handlers
+    for (const handler of Object.values(this.deepHandlers)) {
+      handler.close?.();
     }
 
-    this.connection.send(
-      JSON.stringify({
-        message: reason,
-      })
-    );
-    this.closeError = reason;
-    this.isClosedIntentionally = true;
-    this.connection.close(4001, reason);
+    try {
+      const dir = join(__dirname, "transcriptions");
+      if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+
+      let filename = "transcription.json";
+
+      const params = this.metaData?.customParameters;
+      if (params?.call_flow_type === "normal") {
+        filename = "transcription-normal.json";
+      } else if (params?.track1_label) {
+        filename = `transcription-${params.track1_label}.json`;
+      }
+
+      const filePath = join(dir, filename);
+
+      writeFile(filePath, JSON.stringify(result, null, 2), (err) => {
+        if (err) {
+          console.error("Error writing transcription file:", err);
+        } else {
+          console.log(`Transcription saved to ${filePath}`);
+        }
+      });
+    } catch (err) {
+      console.error("Error saving transcription:", err);
+    }
+  }, 3000);
+}
+
+closeConnection(reason = "") {
+  if (this.isMediaStream) return;
+
+  if (this.connection?.readyState === 1) {
+    this.connection.send(JSON.stringify({ message: reason }));
   }
+
+  this.closeError = reason;
+  this.isClosedIntentionally = true;
+
+  this.connection?.close?.(4001, reason);
+}
+
 }
 
 server.listen(HTTP_SERVER_PORT, "127.0.0.1", function () {
