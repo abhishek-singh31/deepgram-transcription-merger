@@ -1,220 +1,193 @@
-/**
- * DeepgramService
- * ---------------
- * Small wrapper around the Deepgram real‑time WS API that:
- *   • Holds a single streaming socket
- *   • Buffers PCM until WS is open
- *   • Emits 'transcription', 'first‑event', 'error', 'close'
- *   • Adds an accurate offset (sec) against Twilio recordingStartEpoch
- */
+const EventEmitter = require('events');
+const WebSocket = require('ws');
 
-require("dotenv").config();
-const EventEmitter = require("events");
-const WebSocket = require("ws");
 
 class DeepgramService extends EventEmitter {
   constructor() {
     super();
-    /** WebSocket instance */
     this.stream = null;
-    /** When we called DG listen */
     this.streamCreatedAt = null;
-    /** First‑message alignment offset (sec) */
-    this.offset = 0;
+    this.refresh = 0;
+    this.correctedtime=0;
+    this.primarylanguage="en-US";
+    this.alternativelanguage="en-US";
+    this.model="nova-2-general";
+    this.redact=null;
 
-    /* Customisable params */
-    this.primarylanguage = "en-US";
-    this.alternativelanguage = "en-US";
-    this.model = "nova-2-general";
-    this.redact = null;
 
-    /* Internal flags / buffers */
-    this.isOpen = false;
+
+    this.isopen = 0;
     this.buffer = [];
-    this.writeBuffer = true;
-    this.isFirstResponse = true;
-
-    /** <- Will be injected by caller */
-    this.recordingStartEpoch = null; // seconds epoch
+    this.writebuffer = true;
+    this.isfirstresponse = true;
+    this.offset = 0;
   }
-
-  /* ---------- Public API ---------- */
-
-  /**
-   * Pass the Twilio RecordingStarted epoch (in **seconds**).
-   * Call this immediately after you know it.
-   */
-  setRecordingStartEpoch(epochSeconds) {
-    this.recordingStartEpoch = Number(epochSeconds);
-  }
-
-  /**
-   * Forward raw 8 kHz Mulaw PCM to DG
-   */
+  
   send(payload) {
-    const ws = this._getStream();
-    if (!ws) return;
-
-    if (this.isOpen) {
-      if (this.writeBuffer) {
-        // Flush any buffered audio once socket is open
-        this.writeBuffer = false;
-        this.buffer.forEach((buf) => ws.send(buf));
-        this.buffer = [];
-      }
-      ws.send(payload);
-    } else {
-      this.buffer.push(payload); // queue until open
-    }
-  }
-
-  /**
-   * Gracefully end the DG socket
-   */
-  close() {
-    this.stream?.close();
-  }
-
-  /* ---------- Internal ---------- */
-
-  _needNewStream() {
-    return !this.stream || this.stream.readyState >= WebSocket.CLOSING;
-  }
-
-  _getStream() {
-    if (!this._needNewStream()) return this.stream;
-
-    // Close old socket if still around
-    this.stream?.close();
-
-    /* Build query string */
-    const q = new URLSearchParams({
-      encoding: "mulaw",
-      sample_rate: 8000,
-      language: this.primarylanguage,
-      model: this.model || "nova-2-general",
-      smart_format: true,
-      filler_words: true,
-      no_delay: true,
-      interim_results: true,
-      vad_turnoff: 60,
-    });
-    if (this.redact) {
-      this.redact
-        .split(",")
-        .forEach((v) => q.append("redact", v.trim()));
-    }
-
-    const url = `wss://api.deepgram.com/v1/listen?${q.toString()}`;
-    const creds = process.env.DEEPGRAM_API_KEY;
-
-    console.log("[DG] opening →", url);
-    this.streamCreatedAt = Date.now() / 1000;
-
-    try {
-      this.stream = new WebSocket(url, {
-        headers: { Authorization: `Token ${creds}` },
-      });
-    } catch (err) {
-      console.error("[DG] WS create error:", err);
-      return null;
-    }
-
-    /* -------- WS event wiring -------- */
-    this.stream.on("open", () => {
-      this.isOpen = true;
-      console.log("[DG] socket open");
-    });
-
-    this.stream.on("error", (e) => this.emit("error", e));
-    this.stream.on("close", (e) => {
-      console.log("[DG] socket closed");
-      this.emit("close", e);
-    });
-
-    // First message & transcription handler
-    this.stream.on("message", (raw) => {
-      const data = JSON.parse(raw);
-
-      /* ---- First response: calculate offset ---- */
-      if (this.isFirstResponse) {
-        const nowEpoch = Date.now() / 1000;
-        if (this.recordingStartEpoch) {
-          // Align to Twilio recording start
-          this.offset = nowEpoch - this.recordingStartEpoch;
-          console.log(
-            `[DG] first packet → offset=${this.offset.toFixed(3)} s`
-          );
-        } else {
-          // Fallback to streamCreatedAt
-          this.offset = nowEpoch - this.streamCreatedAt;
-          console.warn(
-            "[DG] recordingStartEpoch not set; using streamCreatedAt fallback"
-          );
+    var stream = this.getStream()
+    if(stream){
+        if(this.isopen){
+            if(this.writebuffer){
+                this.writebuffer = false;
+                this.buffer.forEach(element => {
+                    stream.send(element);
+                });
+            }
+            stream.send(payload);
+        }else{
+            this.buffer.push(payload);
         }
+    }
+  }
 
-        if (data.metadata) this.emit("first-event", data.metadata);
-        this.isFirstResponse = false;
+  close() {
+    if (this.stream) {
+      this.stream.close();
+    }
+  }
+
+  newStreamRequired() {
+    if (!this.stream) {
+      return true;
+    } else {
+      const now = new Date();
+      return false;
+    }
+  }
+
+  getStream() {
+    if (this.newStreamRequired()) {
+      if (this.stream) {
+        this.stream.close();
+      }
+      let model = this.model;
+      let redact = this.redact;
+
+
+      if(!model){
+        model = "nova-2-general";
+      }
+      var request = "encoding=mulaw&sample_rate=8000&language="+this.primarylanguage+"&model="+model+"&smart_format=true&filler_words=true&no_delay=true&interim_results=true&vad_turnoff=60";
+      if(redact != null){
+        console.log("Redact is true");
+        let redactquery = redact.split(",").map(value => `redact=${value}`).join("&"); //creating redaction query as redact=option1&redact=option2
+        request = "encoding=mulaw&sample_rate=8000&language="+this.primarylanguage+"&model="+model+"&smart_format=true&filler_words=true&no_delay=true&interim_results=true&vad_turnoff=60&"+redactquery;
+      }
+      console.log('wss://api.deepgram.com/v1/listen?'+request);
+      this.streamCreatedAt = new Date();
+      var creds = "b3196dbec09c7a6d87208d418de7d4eaedbcb129";
+      try {
+        this.stream = new WebSocket('wss://api.deepgram.com/v1/listen?'+request,{
+            headers: {
+              Authorization: 'Token '+creds,
+            },
+        });
+      } catch (e) {
+        console.error('Error creating Deepgram WebSocket:', e);
       }
 
-      /* ---- Forward transcript ---- */
-      if (data.channel?.alternatives?.[0]?.transcript) {
-        // Add a simple serial number (original code)
-        data.sno = Date.now();
+      var _this = this;
+      this.stream.on('error',  (e) => {
+        _this.emit('error', e);
+      });
 
-        // Convert into your Google‑style structure & inject offset
-        this.emit("transcription", convert(data, this.offset));
-      }
-    });
+      this.stream.addEventListener('open', (event) => {
+          this.isopen = 1;
+          console.log("open",Date.now());
+      });
+
+      this.stream.addEventListener('close', (event) => {
+          console.log('The connection has been closed successfully.');
+          _this.emit('close', event);
+        });
+        
+
+        var _this = this;
+        this.stream.on('message', function incoming(data) {
+            data =  JSON.parse(data);
+            if(_this.isfirstresponse){
+              _this.offset = (new Date() - _this.streamCreatedAt)/1000;
+              console.log("offset",_this.offset);
+              
+              if(data.hasOwnProperty("metadata")){
+                _this.emit('first-event', data.metadata);
+              }
+              _this.isfirstresponse = false;
+            }
+            if(data.hasOwnProperty('channel')){
+              if(data["channel"]["alternatives"][0]["transcript"]!=""){
+                  // console.log("from service");
+                  // console.log("channel_index",data["channel_index"]);
+                  // console.log(data["channel"]["alternatives"][0]["transcript"]);
+                  const currentTime = new Date().getTime(); // last three digits contains the nano seconds
+                  const durationSeconds = data.start;
+                  const timeWhenPacketStartedProcessing = currentTime - parseInt(durationSeconds);
+                  data.sno = timeWhenPacketStartedProcessing;
+                  // console.log(JSON.stringify(data));
+                  // console.log(convert(data));
+                  _this.emit('transcription', convert(data,_this.offset));
+                  _this.emit('txt', data);
+
+              }
+            }
+        });
+     
+    }
 
     return this.stream;
   }
+
+
 }
 
-/* ---------- Helper: convert Deepgram JSON to internal format ---------- */
-function convert(dg, offsetSec) {
-  const alt = dg.channel.alternatives[0];
-  const words = alt.words.map((w) => {
-    const sec = Math.floor(w.start + offsetSec);
-    const nano = ((w.start + offsetSec) % 1).toFixed(3).substring(2) + "000000";
-    const endSec = Math.floor(w.end + offsetSec);
-    const endNano =
-      ((w.end + offsetSec) % 1).toFixed(3).substring(2) + "000000";
-    return {
-      word: w.punctuated_word,
-      startTime: {
-        seconds: sec,
-        nanos: nano,
-        finalseconds: sec,
-        finalnanos: nano,
-      },
-      endTime: {
-        seconds: endSec,
-        nanos: endNano,
-        finalseconds: endSec,
-        finalnanos: endNano,
-      },
-    };
-  });
 
-  return {
-    results: [
-      {
-        alternatives: [
-          {
-            words,
-            transcript: alt.transcript,
-            confidence: alt.confidence,
-          },
-        ],
-        isFinal: dg.is_final,
-        speechFinal: dg.speech_final,
-        resultEndTime: dg.duration + offsetSec,
-        sno: dg.sno,
-        requestid: dg.metadata.request_id,
-      },
-    ],
-  };
+function convert(data,offset) {
+    let endSecs = Math.floor(data.duration);
+    let endNanos = (data.duration % 1).toFixed(4).substring(2,3)+"00000000";
+    let words = [];
+    data.channel.alternatives[0].words.forEach(element => {
+              let startEndSecs = Math.floor(element.start);
+              let startEndNanos = (element.start % 1).toFixed(4).substring(2,3)+"00000000";
+              let endEndSecs = Math.floor(element.end);
+              let endEndNanos = (element.end % 1).toFixed(4).substring(2,3)+"00000000";
+              let word = {
+                word:element.punctuated_word,
+                startTime:{
+                  seconds:startEndSecs,
+                  nanos:startEndNanos,
+                  finalseconds:startEndSecs,
+                  finalnanos:startEndNanos
+                },
+                endTime:{
+                  seconds:endEndSecs,
+                  nanos:endEndNanos,
+                  finalseconds:endEndSecs,
+                  finalnanos:endEndNanos
+                }
+              };
+              words.push(word);
+            });
+    
+    var final = {
+      results:[{
+        alternatives:[{
+          words:words,
+          transcript:data.channel.alternatives[0].transcript,
+          confidence:data.channel.alternatives[0].confidence
+        }],
+        isFinal:data.is_final,
+        speechFinal:data.speech_final,
+        resultEndTime:data.duration,
+        resultEndTime: {
+          seconds:endSecs,
+          nanos:endNanos
+        },
+        sno:data.sno,
+        requestid:data.metadata.request_id
+        
+      }]
+    };
+    return final;
 }
 
 module.exports = DeepgramService;

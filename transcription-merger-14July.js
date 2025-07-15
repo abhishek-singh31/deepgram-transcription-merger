@@ -40,6 +40,7 @@ async function mergeTranscripts(){
     const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8'));
     conferenceRecordingTime = Math.max(transcription.metadata.customParameters.recording_start_time_in_epoch_seconds, conferenceRecordingTime);
   })
+  console.log("conferenceRecordingTime", conferenceRecordingTime);
 
 
   const {seconds: confereceStartTimeSeconds, nanos: confereceStartTimeNanos} = splitEpochSeconds(parseFloat(conferenceRecordingTime));
