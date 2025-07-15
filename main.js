@@ -156,6 +156,7 @@ class MediaStreamHandler {
       if (!this.deepHandlers[track]) {
         this.deepHandlers[track] = new DeepgramService();
         const dg = this.deepHandlers[track];
+        dg.setRecordingStartEpoch(this.recordingStartEpoch);
 
         /* Deepgram → transcription handler */
         dg.on("transcription", (dgMsg /* , refresh */) => {
@@ -168,6 +169,14 @@ class MediaStreamHandler {
             info.firstTs !== undefined
           ) {
             info.streamAnchorEpoch = info.firstWall - info.firstTs / 1000;
+            // Patch: align streamAnchorEpoch with Twilio's recordingStartEpoch
+            const drift = info.streamAnchorEpoch - this.recordingStartEpoch;
+            if (drift > 0 && drift < 30) {
+              console.warn(
+                `:warning: Adjusting for initial audio delay of ${drift.toFixed(2)}s to align transcription with Twilio recording`
+              );
+              info.streamAnchorEpoch -= drift;
+            }
           }
           if (!info.streamAnchorEpoch) return; // still waiting…
 
