@@ -1,90 +1,49 @@
-require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
-const twilio = require('twilio');
 
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-
-const client = twilio(accountSid, authToken);
-
-async function mergeTranscripts(){
+function mergeTranscripts(){
   const transcriptFiles = fs.readdirSync(path.join(__dirname, 'transcription3')).filter(file => file.endsWith('.json'));
   // identity transcription with metaData.customParameters.call_flow_type = normal
   const parentFile = transcriptFiles.find(file => JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8')).metadata.customParameters.call_flow_type === 'normal');
   const parentTranscription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', parentFile), 'utf8'));
-
+ 
+  const totalCallDuration = 242; // we need this somehow for correct mapping
+  const baseEndTime = parentTranscription.endTime;
   const baseCallDuration = parentTranscription.callduration;
-  let baseCallRecordingLength = baseCallDuration;
-  await client.recordings
-  .list({ callSid: parentTranscription.metadata.callSid })
-  .then(recordings => {
-    recordings.forEach(rec => {
-      baseCallRecordingLength = parseInt(rec.duration);
-    });
-  })
-  .catch(err => {
-    console.error('Error fetching recordings:', err);
-  });
-
-  console.log('baseCallRecordingLength', baseCallRecordingLength);
-
   const otherTranscriptionFiles = transcriptFiles.filter(file => file !== parentFile);
 
   // Array to store all processed transcriptions
   const allTranscriptions = [parentTranscription];
   const allCallDurations = [baseCallDuration];
 
-
-  let conferenceRecordingTime = 0;
+  let conferenceCallDuration = 0;
   otherTranscriptionFiles.forEach((file) => {
-    // find conferenceRecrodingTime;
     const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8'));
-    conferenceRecordingTime = Math.max(transcription.metadata.customParameters.recording_start_time_in_epoch_seconds, conferenceRecordingTime);
+    conferenceCallDuration = transcription.callduration > conferenceCallDuration ? transcription.callduration : conferenceCallDuration;
   })
 
-
-  const {seconds: confereceStartTimeSeconds, nanos: confereceStartTimeNanos} = splitEpochSeconds(parseFloat(conferenceRecordingTime));
-
-  console.log('confereceStartTimeSeconds', confereceStartTimeSeconds);
-  console.log('confereceStartTimeNanos', confereceStartTimeNanos);
+  const callDurationDiff = baseCallDuration + conferenceCallDuration - totalCallDuration;
 
   otherTranscriptionFiles.forEach((file) => {
     // for each transcription we have to add (offset = this file startTime - baseEndTime) in every word startTime and endTime
     const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8'));
-    const {seconds: streamStartTimeSeconds, nanos: streamStartTimeNanos} = splitEpochSeconds(parseFloat(transcription.metadata.customParameters.stream_start_time_in_epoch_seconds));
-    
-    console.log('For participant', transcription.metadata.customParameters.track1_label);
-    console.log('streamStartTimeSeconds', streamStartTimeSeconds);
-    console.log('confereceStartTimeSeconds', confereceStartTimeSeconds);
-    console.log('Td-T0', transcription.startTime - confereceStartTimeSeconds);
-
-    console.log('T startTime backend', transcription.metadata.customParameters.stream_start_time_in_epoch_seconds-confereceStartTimeSeconds);
-    console.log('T startTime frontend', transcription.metadata.customParameters.start_stream_in_frontend-confereceStartTimeSeconds);
-    const deltaTimeSeconds = streamStartTimeSeconds - confereceStartTimeSeconds;
-    const deltaTimeNanos = streamStartTimeNanos - confereceStartTimeNanos;
-    const extraDelaySeconds = transcription.startTime - streamStartTimeSeconds;
-    
-    console.log('deltaTimeSeconds', deltaTimeSeconds);
-    console.log('deltaTimeNanos', deltaTimeNanos);
-    const offsetSeconds = deltaTimeSeconds - extraDelaySeconds;
-    const offsetNanos = deltaTimeNanos;
-    
+    const offset = (transcription.startTime - baseEndTime) + baseCallDuration - (callDurationDiff);
 
     transcription.transcription.forEach(segment => {
       segment.results.forEach(result => {
         result.alternatives.forEach(alternative => {
           alternative.words.forEach(word => {
-            // Apply time offset to both startTime and endTime
-            addTimeOffset(word.startTime, offsetSeconds,baseCallRecordingLength, offsetNanos, word.word==="Hope");
-            addTimeOffset(word.endTime, offsetSeconds, baseCallRecordingLength, offsetNanos,  word.word==="Hope");
+            word.startTime.seconds += offset;
+            word.startTime.finalseconds += offset;
+            word.endTime.seconds += offset;
+            word.endTime.finalseconds += offset;
           });
         });
       });
     });
+    // now from this, create new json with name transcription-{transcription.metadata.customParameters.track1_label}
+    fs.writeFileSync(path.join(__dirname, 'transcription3', `transcription-${transcription.metadata.customParameters.track1_label}.json`), JSON.stringify(transcription, null, 2));
 
-    // now from this, create new json with name transcription-{transcription.metadata.customParameters.track1_label}-modified
-    // fs.writeFileSync(path.join(__dirname, 'transcription3', `transcription-${transcription.metadata.customParameters.track1_label}-modified.json`), JSON.stringify(transcription, null, 2));
     // Add to our collections for final merge
     allTranscriptions.push(transcription);
     allCallDurations.push(transcription.callduration);
@@ -246,52 +205,6 @@ function createCombinedTranscription(allTranscriptions, allCallDurations, baseCa
   combinedTranscription.completetranscription = allWords.map(word => word.word).join(" ");
 
   return combinedTranscription;
-}
-
-function splitEpochSeconds(epochDecimal) {
-  const seconds = Math.floor(epochDecimal);
-  const nanos = Math.round((epochDecimal - seconds) * 1_000_000_000);
-  return { seconds, nanos };
-}
-
-function addTimeOffset(timeObj, offsetSeconds,baseCallDuration, offsetNanos, print=0) {
-  const NANOS_PER_SECOND = 1_000_000_000;
-
-  if(print){
-    console.log('Adding', offsetSeconds);
-    console.log('Adding', offsetNanos);
-  }
-  // Add seconds offset
-  timeObj.seconds += offsetSeconds + baseCallDuration;
-  timeObj.finalseconds += offsetSeconds + baseCallDuration;
-  
-  // Add nanoseconds offset and ha ndle overflow
-  let totalNanos = parseInt(timeObj.nanos) + parseInt(offsetNanos);
-  let totalFinalNanos = parseInt(timeObj.finalnanos) + parseInt(offsetNanos);
-
-  // Handle nanosecond overflow for nanos
-  if (totalNanos >= NANOS_PER_SECOND) {
-    timeObj.seconds += Math.floor(totalNanos / NANOS_PER_SECOND);
-    timeObj.nanos = convertNanosToString(totalNanos % NANOS_PER_SECOND);
-  } else {
-    timeObj.nanos = convertNanosToString(totalNanos);
-  }
-  
-  // Handle nanosecond overflow for finalnanos
-  if (totalFinalNanos >= NANOS_PER_SECOND) {
-    timeObj.finalseconds += Math.floor(totalFinalNanos / NANOS_PER_SECOND);
-    timeObj.finalnanos = convertNanosToString(totalFinalNanos % NANOS_PER_SECOND);
-  } else {
-    timeObj.finalnanos = convertNanosToString(totalFinalNanos);
-  }
-}
-
-function convertNanosToString(nanos) {
-  let nanosString = `${nanos}`;
-  while(nanosString.length < 9){
-    nanosString = '0' + nanosString;
-  }
-  return nanosString;
 }
 
 mergeTranscripts();

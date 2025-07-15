@@ -1,0 +1,1024 @@
+{
+  "transcription": [
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Yes.",
+                  "startTime": {
+                    "seconds": 10,
+                    "nanos": "000000000",
+                    "finalseconds": 10,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 10,
+                    "nanos": "400000000",
+                    "finalseconds": 10,
+                    "finalnanos": "400000000"
+                  }
+                },
+                {
+                  "word": "This",
+                  "startTime": {
+                    "seconds": 10,
+                    "nanos": "400000000",
+                    "finalseconds": 10,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 10,
+                    "nanos": "500000000",
+                    "finalseconds": 10,
+                    "finalnanos": "500000000"
+                  }
+                },
+                {
+                  "word": "is",
+                  "startTime": {
+                    "seconds": 10,
+                    "nanos": "500000000",
+                    "finalseconds": 10,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 10,
+                    "nanos": "800000000",
+                    "finalseconds": 10,
+                    "finalnanos": "800000000"
+                  }
+                },
+                {
+                  "word": "Abhishek",
+                  "startTime": {
+                    "seconds": 10,
+                    "nanos": "800000000",
+                    "finalseconds": 10,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 10,
+                    "nanos": "800000000",
+                    "finalseconds": 10,
+                    "finalnanos": "800000000"
+                  }
+                },
+                {
+                  "word": "speaking.",
+                  "startTime": {
+                    "seconds": 10,
+                    "nanos": "800000000",
+                    "finalseconds": 10,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 11,
+                    "nanos": "200000000",
+                    "finalseconds": 11,
+                    "finalnanos": "200000000"
+                  }
+                },
+                {
+                  "word": "Good",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "200000000",
+                    "finalseconds": 11,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 11,
+                    "nanos": "300000000",
+                    "finalseconds": 11,
+                    "finalnanos": "300000000"
+                  }
+                },
+                {
+                  "word": "morning.",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "300000000",
+                    "finalseconds": 11,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 11,
+                    "nanos": "800000000",
+                    "finalseconds": 11,
+                    "finalnanos": "800000000"
+                  }
+                },
+                {
+                  "word": "Who's",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "800000000",
+                    "finalseconds": 11,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "000000000",
+                    "finalseconds": 12,
+                    "finalnanos": "000000000"
+                  }
+                },
+                {
+                  "word": "calling?",
+                  "startTime": {
+                    "seconds": 12,
+                    "nanos": "000000000",
+                    "finalseconds": 12,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "500000000",
+                    "finalseconds": 12,
+                    "finalnanos": "500000000"
+                  }
+                }
+              ],
+              "transcript": "Yes. This is Abhishek speaking. Good morning. Who's calling?",
+              "confidence": 0.99157715
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 2,
+            "nanos": "700000000"
+          },
+          "sno": 1752579735512,
+          "requestid": "eb98aac0-7521-4280-a5cf-54096481167e",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Yes.",
+                  "startTime": {
+                    "seconds": 21,
+                    "nanos": "900000000",
+                    "finalseconds": 21,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 22,
+                    "nanos": "300000000",
+                    "finalseconds": 22,
+                    "finalnanos": "300000000"
+                  }
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 22,
+                    "nanos": "300000000",
+                    "finalseconds": 22,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 22,
+                    "nanos": "400000000",
+                    "finalseconds": 22,
+                    "finalnanos": "400000000"
+                  }
+                },
+                {
+                  "word": "have",
+                  "startTime": {
+                    "seconds": 22,
+                    "nanos": "400000000",
+                    "finalseconds": 22,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 22,
+                    "nanos": "600000000",
+                    "finalseconds": 22,
+                    "finalnanos": "600000000"
+                  }
+                },
+                {
+                  "word": "a",
+                  "startTime": {
+                    "seconds": 22,
+                    "nanos": "600000000",
+                    "finalseconds": 22,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 22,
+                    "nanos": "600000000",
+                    "finalseconds": 22,
+                    "finalnanos": "600000000"
+                  }
+                },
+                {
+                  "word": "few",
+                  "startTime": {
+                    "seconds": 22,
+                    "nanos": "600000000",
+                    "finalseconds": 22,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 22,
+                    "nanos": "900000000",
+                    "finalseconds": 22,
+                    "finalnanos": "900000000"
+                  }
+                },
+                {
+                  "word": "minutes.",
+                  "startTime": {
+                    "seconds": 22,
+                    "nanos": "900000000",
+                    "finalseconds": 22,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 23,
+                    "nanos": "300000000",
+                    "finalseconds": 23,
+                    "finalnanos": "300000000"
+                  }
+                }
+              ],
+              "transcript": "Yes. I have a few minutes.",
+              "confidence": 0.96533203
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 1,
+            "nanos": "600000000"
+          },
+          "sno": 1752579746367,
+          "requestid": "eb98aac0-7521-4280-a5cf-54096481167e",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Yes.",
+                  "startTime": {
+                    "seconds": 33,
+                    "nanos": "700000000",
+                    "finalseconds": 33,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 34,
+                    "nanos": "100000000",
+                    "finalseconds": 34,
+                    "finalnanos": "100000000"
+                  }
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 34,
+                    "nanos": "100000000",
+                    "finalseconds": 34,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 34,
+                    "nanos": "200000000",
+                    "finalseconds": 34,
+                    "finalnanos": "200000000"
+                  }
+                },
+                {
+                  "word": "did.",
+                  "startTime": {
+                    "seconds": 34,
+                    "nanos": "200000000",
+                    "finalseconds": 34,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 34,
+                    "nanos": "500000000",
+                    "finalseconds": 34,
+                    "finalnanos": "500000000"
+                  }
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 34,
+                    "nanos": "500000000",
+                    "finalseconds": 34,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 34,
+                    "nanos": "500000000",
+                    "finalseconds": 34,
+                    "finalnanos": "500000000"
+                  }
+                },
+                {
+                  "word": "had",
+                  "startTime": {
+                    "seconds": 34,
+                    "nanos": "500000000",
+                    "finalseconds": 34,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 34,
+                    "nanos": "700000000",
+                    "finalseconds": 34,
+                    "finalnanos": "700000000"
+                  }
+                },
+                {
+                  "word": "a",
+                  "startTime": {
+                    "seconds": 34,
+                    "nanos": "700000000",
+                    "finalseconds": 34,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 34,
+                    "nanos": "800000000",
+                    "finalseconds": 34,
+                    "finalnanos": "800000000"
+                  }
+                },
+                {
+                  "word": "quick",
+                  "startTime": {
+                    "seconds": 34,
+                    "nanos": "800000000",
+                    "finalseconds": 34,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 35,
+                    "nanos": "100000000",
+                    "finalseconds": 35,
+                    "finalnanos": "100000000"
+                  }
+                },
+                {
+                  "word": "click.",
+                  "startTime": {
+                    "seconds": 35,
+                    "nanos": "100000000",
+                    "finalseconds": 35,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 35,
+                    "nanos": "600000000",
+                    "finalseconds": 35,
+                    "finalnanos": "600000000"
+                  }
+                }
+              ],
+              "transcript": "Yes. I did. I had a quick click.",
+              "confidence": 0.9980469
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 3,
+            "nanos": "900000000"
+          },
+          "sno": 1752579758628,
+          "requestid": "eb98aac0-7521-4280-a5cf-54096481167e",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 36,
+                    "nanos": "200000000",
+                    "finalseconds": 36,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 36,
+                    "nanos": "300000000",
+                    "finalseconds": 36,
+                    "finalnanos": "300000000"
+                  }
+                },
+                {
+                  "word": "had",
+                  "startTime": {
+                    "seconds": 36,
+                    "nanos": "300000000",
+                    "finalseconds": 36,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 36,
+                    "nanos": "400000000",
+                    "finalseconds": 36,
+                    "finalnanos": "400000000"
+                  }
+                },
+                {
+                  "word": "a",
+                  "startTime": {
+                    "seconds": 36,
+                    "nanos": "400000000",
+                    "finalseconds": 36,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 36,
+                    "nanos": "500000000",
+                    "finalseconds": 36,
+                    "finalnanos": "500000000"
+                  }
+                },
+                {
+                  "word": "clue.",
+                  "startTime": {
+                    "seconds": 36,
+                    "nanos": "500000000",
+                    "finalseconds": 36,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 36,
+                    "nanos": "800000000",
+                    "finalseconds": 36,
+                    "finalnanos": "800000000"
+                  }
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 36,
+                    "nanos": "800000000",
+                    "finalseconds": 36,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "000000000",
+                    "finalseconds": 37,
+                    "finalnanos": "000000000"
+                  }
+                },
+                {
+                  "word": "had",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "000000000",
+                    "finalseconds": 37,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "300000000",
+                    "finalseconds": 37,
+                    "finalnanos": "300000000"
+                  }
+                },
+                {
+                  "word": "a",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "300000000",
+                    "finalseconds": 37,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "500000000",
+                    "finalseconds": 37,
+                    "finalnanos": "500000000"
+                  }
+                },
+                {
+                  "word": "few",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "500000000",
+                    "finalseconds": 37,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "700000000",
+                    "finalseconds": 37,
+                    "finalnanos": "700000000"
+                  }
+                },
+                {
+                  "word": "questions,",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "700000000",
+                    "finalseconds": 37,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 38,
+                    "nanos": "100000000",
+                    "finalseconds": 38,
+                    "finalnanos": "100000000"
+                  }
+                },
+                {
+                  "word": "actually.",
+                  "startTime": {
+                    "seconds": 38,
+                    "nanos": "100000000",
+                    "finalseconds": 38,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 38,
+                    "nanos": "600000000",
+                    "finalseconds": 38,
+                    "finalnanos": "600000000"
+                  }
+                }
+              ],
+              "transcript": "I had a clue. I had a few questions, actually.",
+              "confidence": 0.9873047
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 3,
+            "nanos": "200000000"
+          },
+          "sno": 1752579761965,
+          "requestid": "eb98aac0-7521-4280-a5cf-54096481167e",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Yeah.",
+                  "startTime": {
+                    "seconds": 44,
+                    "nanos": "900000000",
+                    "finalseconds": 44,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 45,
+                    "nanos": "200000000",
+                    "finalseconds": 45,
+                    "finalnanos": "200000000"
+                  }
+                },
+                {
+                  "word": "Actually,",
+                  "startTime": {
+                    "seconds": 45,
+                    "nanos": "200000000",
+                    "finalseconds": 45,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 45,
+                    "nanos": "600000000",
+                    "finalseconds": 45,
+                    "finalnanos": "600000000"
+                  }
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 45,
+                    "nanos": "600000000",
+                    "finalseconds": 45,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 45,
+                    "nanos": "800000000",
+                    "finalseconds": 45,
+                    "finalnanos": "800000000"
+                  }
+                },
+                {
+                  "word": "want",
+                  "startTime": {
+                    "seconds": 45,
+                    "nanos": "800000000",
+                    "finalseconds": 45,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 46,
+                    "nanos": "000000000",
+                    "finalseconds": 46,
+                    "finalnanos": "000000000"
+                  }
+                },
+                {
+                  "word": "to",
+                  "startTime": {
+                    "seconds": 46,
+                    "nanos": "000000000",
+                    "finalseconds": 46,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 46,
+                    "nanos": "100000000",
+                    "finalseconds": 46,
+                    "finalnanos": "100000000"
+                  }
+                },
+                {
+                  "word": "discuss",
+                  "startTime": {
+                    "seconds": 46,
+                    "nanos": "100000000",
+                    "finalseconds": 46,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 46,
+                    "nanos": "500000000",
+                    "finalseconds": 46,
+                    "finalnanos": "500000000"
+                  }
+                },
+                {
+                  "word": "about",
+                  "startTime": {
+                    "seconds": 46,
+                    "nanos": "500000000",
+                    "finalseconds": 46,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 46,
+                    "nanos": "700000000",
+                    "finalseconds": 46,
+                    "finalnanos": "700000000"
+                  }
+                },
+                {
+                  "word": "the",
+                  "startTime": {
+                    "seconds": 46,
+                    "nanos": "700000000",
+                    "finalseconds": 46,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 47,
+                    "nanos": "000000000",
+                    "finalseconds": 47,
+                    "finalnanos": "000000000"
+                  }
+                },
+                {
+                  "word": "pricing.",
+                  "startTime": {
+                    "seconds": 47,
+                    "nanos": "000000000",
+                    "finalseconds": 47,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 47,
+                    "nanos": "500000000",
+                    "finalseconds": 47,
+                    "finalnanos": "500000000"
+                  }
+                }
+              ],
+              "transcript": "Yeah. Actually, I want to discuss about the pricing.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 4,
+            "nanos": "700000000"
+          },
+          "sno": 1752579770781,
+          "requestid": "eb98aac0-7521-4280-a5cf-54096481167e",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Yes.",
+                  "startTime": {
+                    "seconds": 58,
+                    "nanos": "400000000",
+                    "finalseconds": 58,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 58,
+                    "nanos": "800000000",
+                    "finalseconds": 58,
+                    "finalnanos": "800000000"
+                  }
+                },
+                {
+                  "word": "That",
+                  "startTime": {
+                    "seconds": 58,
+                    "nanos": "800000000",
+                    "finalseconds": 58,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 59,
+                    "nanos": "000000000",
+                    "finalseconds": 59,
+                    "finalnanos": "000000000"
+                  }
+                },
+                {
+                  "word": "works.",
+                  "startTime": {
+                    "seconds": 59,
+                    "nanos": "000000000",
+                    "finalseconds": 59,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 59,
+                    "nanos": "400000000",
+                    "finalseconds": 59,
+                    "finalnanos": "400000000"
+                  }
+                },
+                {
+                  "word": "Thank",
+                  "startTime": {
+                    "seconds": 59,
+                    "nanos": "400000000",
+                    "finalseconds": 59,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 59,
+                    "nanos": "500000000",
+                    "finalseconds": 59,
+                    "finalnanos": "500000000"
+                  }
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 59,
+                    "nanos": "500000000",
+                    "finalseconds": 59,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 59,
+                    "nanos": "600000000",
+                    "finalseconds": 59,
+                    "finalnanos": "600000000"
+                  }
+                },
+                {
+                  "word": "for",
+                  "startTime": {
+                    "seconds": 59,
+                    "nanos": "600000000",
+                    "finalseconds": 59,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 59,
+                    "nanos": "800000000",
+                    "finalseconds": 59,
+                    "finalnanos": "800000000"
+                  }
+                },
+                {
+                  "word": "your",
+                  "startTime": {
+                    "seconds": 59,
+                    "nanos": "800000000",
+                    "finalseconds": 59,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 60,
+                    "nanos": "300000000",
+                    "finalseconds": 60,
+                    "finalnanos": "300000000"
+                  }
+                },
+                {
+                  "word": "help.",
+                  "startTime": {
+                    "seconds": 60,
+                    "nanos": "500000000",
+                    "finalseconds": 60,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 60,
+                    "nanos": "800000000",
+                    "finalseconds": 60,
+                    "finalnanos": "800000000"
+                  }
+                }
+              ],
+              "transcript": "Yes. That works. Thank you for your help.",
+              "confidence": 0.9941406
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 3,
+            "nanos": "700000000"
+          },
+          "sno": 1752579783861,
+          "requestid": "eb98aac0-7521-4280-a5cf-54096481167e",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "You",
+                  "startTime": {
+                    "seconds": 66,
+                    "nanos": "700000000",
+                    "finalseconds": 66,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 67,
+                    "nanos": "000000000",
+                    "finalseconds": 67,
+                    "finalnanos": "000000000"
+                  }
+                },
+                {
+                  "word": "too.",
+                  "startTime": {
+                    "seconds": 67,
+                    "nanos": "000000000",
+                    "finalseconds": 67,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 67,
+                    "nanos": "300000000",
+                    "finalseconds": 67,
+                    "finalnanos": "300000000"
+                  }
+                },
+                {
+                  "word": "Take",
+                  "startTime": {
+                    "seconds": 67,
+                    "nanos": "300000000",
+                    "finalseconds": 67,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 67,
+                    "nanos": "700000000",
+                    "finalseconds": 67,
+                    "finalnanos": "700000000"
+                  }
+                },
+                {
+                  "word": "care.",
+                  "startTime": {
+                    "seconds": 67,
+                    "nanos": "700000000",
+                    "finalseconds": 67,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 67,
+                    "nanos": "800000000",
+                    "finalseconds": 67,
+                    "finalnanos": "800000000"
+                  }
+                },
+                {
+                  "word": "Goodbye.",
+                  "startTime": {
+                    "seconds": 67,
+                    "nanos": "800000000",
+                    "finalseconds": 67,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 68,
+                    "nanos": "300000000",
+                    "finalseconds": 68,
+                    "finalnanos": "300000000"
+                  }
+                }
+              ],
+              "transcript": "You too. Take care. Goodbye.",
+              "confidence": 0.9970703
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 4,
+            "nanos": "300000000"
+          },
+          "sno": 1752579792185,
+          "requestid": "eb98aac0-7521-4280-a5cf-54096481167e",
+          "track": 1,
+          "participant_label": "abhishek"
+        }
+      ]
+    }
+  ],
+  "completetranscription": "Yes. This is Abhishek speaking. Good morning. Who's calling? Yes. I have a few minutes. Yes. I did. I had a quick click. I had a clue. I had a few questions, actually. Yeah. Actually, I want to discuss about the pricing. Yes. That works. Thank you for your help. You too. Take care. Goodbye. ",
+  "datetime": 1752579796,
+  "startTime": 1752579723,
+  "endTime": 1752579796,
+  "metadata": {
+    "accountSid": "AC3b6ada2609ecb3e3faa82bfe0564a4ac",
+    "streamSid": "MZa9988c091fa83f9620d6d97201869eea",
+    "callSid": "CA7379e17592f8bbec17b9cab3e52b74ab",
+    "tracks": [
+      "inbound",
+      "outbound"
+    ],
+    "mediaFormat": {
+      "encoding": "audio/x-mulaw",
+      "sampleRate": 8000,
+      "channels": 1
+    },
+    "customParameters": {
+      "track1_label": "abhishek",
+      "track0_label": "conference",
+      "call_flow_type": "conference",
+      "recording_start_time_in_epoch_seconds": "1752579690.0",
+      "stream_start_time_in_epoch_seconds": "1752579721.420288"
+    }
+  },
+  "callduration": 73,
+  "callsid": "1yd17toszdt"
+}

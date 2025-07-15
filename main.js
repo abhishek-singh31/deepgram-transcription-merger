@@ -54,6 +54,7 @@ class MediaStreamHandler {
       this.participants = {};
       this.call_flow_type = null;
       this.stream_start_time_in_epoch_seconds = null;
+      this.start_stream_in_frontend = null;
   
       //test
       this.deepresponse = [];
@@ -106,9 +107,17 @@ class MediaStreamHandler {
             if (data.event == "start") {
                 console.log("Websocket stream start");
                 this.metaData = data.start;
+                const now = Date.now()
+                console.log(`Participant: ${this.metaData?.customParameters?.track1_label} - ${now}`);
+                console.log(`Participant: ${this.metaData?.customParameters?.track0_label} - ${now}`);
+
                 this.call_flow_type = this.metaData.customParameters.call_flow_type;
                 this.stream_start_time_in_epoch_seconds = this.metaData.customParameters.stream_start_time_in_epoch_seconds;
-                this.startTime = Math.round(Date.now() / 1000);
+                this.metaData.customParameters = {
+                    ...this.metaData.customParameters,
+                    start_stream_in_frontend: now/1000
+                }
+                this.startTime = Math.round(now / 1000);
                 this.isMediaStream = true;
                 this.completetranscription = "";
                 this.finalarrray = [];
@@ -121,13 +130,14 @@ class MediaStreamHandler {
                         label : this.metaData?.customParameters?.track1_label || "unknown1"
                     } 
                 }
+                console.log(this.participants);
 
 
                  //check stream in last 5 seconds
                 this.logsinterval = setInterval(() => {
                     if (
                         _this.lastpackettime == 0 ||
-                        Math.round(Date.now() / 1000) - _this.lastpackettime > 5
+                        Math.round(now / 1000) - _this.lastpackettime > 5
                     ) {
                         console.log("deepgram stream error");
                         clearInterval(_this.logsinterval);
@@ -254,7 +264,6 @@ class MediaStreamHandler {
             setTimeout(function () {
                 //finding companyid
                 
-                var enddatetime = Math.round(Date.now() / 1000);
                 var returnarray = {};
                 returnarray["transcription"] = _this.finalarrray;
                 returnarray["completetranscription"] = _this.completetranscription;
@@ -289,7 +298,7 @@ class MediaStreamHandler {
                     if(_this.metaData.customParameters.call_flow_type === "normal"){
                         transcriptionFileName = `transcription-normal.json`;
                     } else {
-                        transcriptionFileName = `transcription-${_this.metaData.customParameters.track1_label}.json`;
+                        transcriptionFileName = `transcription-${_this.metaData.customParameters.track1_label}-${Date.now()}.json`;
                     }
                     
                     const filePath = path.join(transcriptionsDir, transcriptionFileName);
