@@ -108,6 +108,7 @@ class MediaStreamHandler {
       /******************** 1.  Handle “start / stop” ********************/
       if (data.event === "start") {
         console.log("WS stream start");
+        this.isMediaStream = true;
         this.metaData = data.start;
         this.call_flow_type = this.metaData.customParameters.call_flow_type;
         this.recordingStartEpoch = Number(
@@ -176,9 +177,10 @@ class MediaStreamHandler {
           const wordsArr = alt.words || [];
 
           for (const w of wordsArr) {
-            const rel = relativeStartSec(w);
+            const rel = this.relativeStartSec(w);
             if (rel == null) continue;
             const epoch = info.streamAnchorEpoch + rel;
+            console.log(`epoch: ${epoch} recordingStartEpoch: ${this.recordingStartEpoch}`);
             w.offset_in_recording = Number(
               (epoch - this.recordingStartEpoch).toFixed(3)
             );
@@ -208,11 +210,21 @@ class MediaStreamHandler {
       const info = (this.trackInfo[track] ||= {});
       const ts = data.media.timestamp; // Twilio ms
 
-      if (info.lastTs !== undefined && ts > info.lastTs + 20) {
-        /* Fill gap with silence */
-        const diff = ts - (info.lastTs + 20); // ms
-        const lostByte = Buffer.alloc(8 * diff, 0);
-        this.deepHandlers[track].send(lostByte);
+      if (info.lastTs !== undefined) {
+        const gap = ts - info.lastTs;
+      
+        if (gap > 20) {
+          const missingMs = gap - 20;
+          const byteCount = 8 * missingMs;
+      
+          if (byteCount > 0 && byteCount <= 10_000_000) {
+            // limit to avoid flooding Deepgram with silence
+            const lostByte = Buffer.alloc(byteCount, 0);
+            this.deepHandlers[track].send(lostByte);
+          } else {
+            console.warn(`Skipping silence padding, invalid byteCount: ${byteCount}`);
+          }
+        }
       }
       info.lastTs = ts;
 
@@ -278,6 +290,8 @@ close() {
       }
 
       const filePath = join(dir, filename);
+
+      console.log("Writing transcription to file", filePath);
 
       writeFile(filePath, JSON.stringify(result, null, 2), (err) => {
         if (err) {

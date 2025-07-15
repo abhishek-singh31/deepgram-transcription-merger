@@ -1,1 +1,1925 @@
-{"transcription":[{"results":[{"alternatives":[{"words":[{"word":"Hello.","startTime":{"seconds":1,"nanos":"800000000","finalseconds":1,"finalnanos":"800000000"},"endTime":{"seconds":2,"nanos":"300000000","finalseconds":2,"finalnanos":"300000000"}},{"word":"Thank","startTime":{"seconds":2,"nanos":"600000000","finalseconds":2,"finalnanos":"600000000"},"endTime":{"seconds":2,"nanos":"800000000","finalseconds":2,"finalnanos":"800000000"}},{"word":"you","startTime":{"seconds":2,"nanos":"800000000","finalseconds":2,"finalnanos":"800000000"},"endTime":{"seconds":2,"nanos":"900000000","finalseconds":2,"finalnanos":"900000000"}},{"word":"for","startTime":{"seconds":2,"nanos":"900000000","finalseconds":2,"finalnanos":"900000000"},"endTime":{"seconds":3,"nanos":"100000000","finalseconds":3,"finalnanos":"100000000"}},{"word":"calling","startTime":{"seconds":3,"nanos":"100000000","finalseconds":3,"finalnanos":"100000000"},"endTime":{"seconds":3,"nanos":"400000000","finalseconds":3,"finalnanos":"400000000"}},{"word":"one","startTime":{"seconds":3,"nanos":"400000000","finalseconds":3,"finalnanos":"400000000"},"endTime":{"seconds":3,"nanos":"700000000","finalseconds":3,"finalnanos":"700000000"}},{"word":"hundred","startTime":{"seconds":3,"nanos":"700000000","finalseconds":3,"finalnanos":"700000000"},"endTime":{"seconds":3,"nanos":"900000000","finalseconds":3,"finalnanos":"900000000"}},{"word":"and","startTime":{"seconds":3,"nanos":"900000000","finalseconds":3,"finalnanos":"900000000"},"endTime":{"seconds":4,"nanos":"100000000","finalseconds":4,"finalnanos":"100000000"}},{"word":"twenty","startTime":{"seconds":4,"nanos":"100000000","finalseconds":4,"finalnanos":"100000000"},"endTime":{"seconds":4,"nanos":"300000000","finalseconds":4,"finalnanos":"300000000"}},{"word":"three.","startTime":{"seconds":4,"nanos":"300000000","finalseconds":4,"finalnanos":"300000000"},"endTime":{"seconds":4,"nanos":"600000000","finalseconds":4,"finalnanos":"600000000"}},{"word":"I","startTime":{"seconds":4,"nanos":"600000000","finalseconds":4,"finalnanos":"600000000"},"endTime":{"seconds":4,"nanos":"600000000","finalseconds":4,"finalnanos":"600000000"}},{"word":"am","startTime":{"seconds":4,"nanos":"600000000","finalseconds":4,"finalnanos":"600000000"},"endTime":{"seconds":4,"nanos":"900000000","finalseconds":4,"finalnanos":"900000000"}},{"word":"Anna.","startTime":{"seconds":4,"nanos":"900000000","finalseconds":4,"finalnanos":"900000000"},"endTime":{"seconds":5,"nanos":"200000000","finalseconds":5,"finalnanos":"200000000"}},{"word":"How","startTime":{"seconds":5,"nanos":"200000000","finalseconds":5,"finalnanos":"200000000"},"endTime":{"seconds":5,"nanos":"400000000","finalseconds":5,"finalnanos":"400000000"}},{"word":"are","startTime":{"seconds":5,"nanos":"400000000","finalseconds":5,"finalnanos":"400000000"},"endTime":{"seconds":5,"nanos":"400000000","finalseconds":5,"finalnanos":"400000000"}},{"word":"you","startTime":{"seconds":5,"nanos":"400000000","finalseconds":5,"finalnanos":"400000000"},"endTime":{"seconds":5,"nanos":"600000000","finalseconds":5,"finalnanos":"600000000"}},{"word":"doing?","startTime":{"seconds":5,"nanos":"600000000","finalseconds":5,"finalnanos":"600000000"},"endTime":{"seconds":6,"nanos":"100000000","finalseconds":6,"finalnanos":"100000000"}}],"transcript":"Hello. Thank you for calling one hundred and twenty three. I am Anna. How are you doing?","confidence":1}],"isFinal":true,"speechFinal":true,"resultEndTime":{"seconds":4,"nanos":"700000000"},"sno":1752509733927,"requestid":"aa761dd6-cacc-4359-9218-38f4f342f481","track":0,"participant_label":"+18559421624"}]},{"results":[{"alternatives":[{"words":[{"word":"I'm","startTime":{"seconds":6,"nanos":"500000000","finalseconds":6,"finalnanos":"500000000"},"endTime":{"seconds":6,"nanos":"700000000","finalseconds":6,"finalnanos":"700000000"}},{"word":"doing","startTime":{"seconds":6,"nanos":"700000000","finalseconds":6,"finalnanos":"700000000"},"endTime":{"seconds":7,"nanos":"000000000","finalseconds":7,"finalnanos":"000000000"}},{"word":"very","startTime":{"seconds":7,"nanos":"000000000","finalseconds":7,"finalnanos":"000000000"},"endTime":{"seconds":7,"nanos":"200000000","finalseconds":7,"finalnanos":"200000000"}},{"word":"bad.","startTime":{"seconds":7,"nanos":"200000000","finalseconds":7,"finalnanos":"200000000"},"endTime":{"seconds":7,"nanos":"700000000","finalseconds":7,"finalnanos":"700000000"}}],"transcript":"I'm doing very bad.","confidence":0.9379883}],"isFinal":true,"speechFinal":true,"resultEndTime":{"seconds":1,"nanos":"800000000"},"sno":1752509735494,"requestid":"71aa946e-ffa5-429b-b5f0-7ab860230742","track":1,"participant_label":"debjyoti"}]},{"results":[{"alternatives":[{"words":[{"word":"I'm","startTime":{"seconds":9,"nanos":"300000000","finalseconds":9,"finalnanos":"300000000"},"endTime":{"seconds":9,"nanos":"600000000","finalseconds":9,"finalnanos":"600000000"}},{"word":"really","startTime":{"seconds":9,"nanos":"600000000","finalseconds":9,"finalnanos":"600000000"},"endTime":{"seconds":9,"nanos":"700000000","finalseconds":9,"finalnanos":"700000000"}},{"word":"sorry","startTime":{"seconds":9,"nanos":"700000000","finalseconds":9,"finalnanos":"700000000"},"endTime":{"seconds":10,"nanos":"000000000","finalseconds":10,"finalnanos":"000000000"}},{"word":"to","startTime":{"seconds":10,"nanos":"000000000","finalseconds":10,"finalnanos":"000000000"},"endTime":{"seconds":10,"nanos":"200000000","finalseconds":10,"finalnanos":"200000000"}},{"word":"hear","startTime":{"seconds":10,"nanos":"200000000","finalseconds":10,"finalnanos":"200000000"},"endTime":{"seconds":10,"nanos":"400000000","finalseconds":10,"finalnanos":"400000000"}},{"word":"that.","startTime":{"seconds":10,"nanos":"400000000","finalseconds":10,"finalnanos":"400000000"},"endTime":{"seconds":10,"nanos":"700000000","finalseconds":10,"finalnanos":"700000000"}}],"transcript":"I'm really sorry to hear that.","confidence":1}],"isFinal":true,"speechFinal":true,"resultEndTime":{"seconds":4,"nanos":"500000000"},"sno":1752509738435,"requestid":"aa761dd6-cacc-4359-9218-38f4f342f481","track":0,"participant_label":"+18559421624"}]},{"results":[{"alternatives":[{"words":[{"word":"There","startTime":{"seconds":11,"nanos":"000000000","finalseconds":11,"finalnanos":"000000000"},"endTime":{"seconds":11,"nanos":"300000000","finalseconds":11,"finalnanos":"300000000"}},{"word":"anything","startTime":{"seconds":11,"nanos":"300000000","finalseconds":11,"finalnanos":"300000000"},"endTime":{"seconds":11,"nanos":"300000000","finalseconds":11,"finalnanos":"300000000"}},{"word":"I","startTime":{"seconds":11,"nanos":"300000000","finalseconds":11,"finalnanos":"300000000"},"endTime":{"seconds":11,"nanos":"400000000","finalseconds":11,"finalnanos":"400000000"}},{"word":"can","startTime":{"seconds":11,"nanos":"400000000","finalseconds":11,"finalnanos":"400000000"},"endTime":{"seconds":11,"nanos":"500000000","finalseconds":11,"finalnanos":"500000000"}},{"word":"assist","startTime":{"seconds":11,"nanos":"500000000","finalseconds":11,"finalnanos":"500000000"},"endTime":{"seconds":11,"nanos":"800000000","finalseconds":11,"finalnanos":"800000000"}},{"word":"you","startTime":{"seconds":11,"nanos":"800000000","finalseconds":11,"finalnanos":"800000000"},"endTime":{"seconds":12,"nanos":"100000000","finalseconds":12,"finalnanos":"100000000"}},{"word":"with","startTime":{"seconds":12,"nanos":"100000000","finalseconds":12,"finalnanos":"100000000"},"endTime":{"seconds":12,"nanos":"400000000","finalseconds":12,"finalnanos":"400000000"}},{"word":"to","startTime":{"seconds":12,"nanos":"400000000","finalseconds":12,"finalnanos":"400000000"},"endTime":{"seconds":12,"nanos":"700000000","finalseconds":12,"finalnanos":"700000000"}},{"word":"make","startTime":{"seconds":12,"nanos":"700000000","finalseconds":12,"finalnanos":"700000000"},"endTime":{"seconds":12,"nanos":"900000000","finalseconds":12,"finalnanos":"900000000"}},{"word":"things","startTime":{"seconds":12,"nanos":"900000000","finalseconds":12,"finalnanos":"900000000"},"endTime":{"seconds":13,"nanos":"200000000","finalseconds":13,"finalnanos":"200000000"}},{"word":"a","startTime":{"seconds":13,"nanos":"200000000","finalseconds":13,"finalnanos":"200000000"},"endTime":{"seconds":13,"nanos":"300000000","finalseconds":13,"finalnanos":"300000000"}},{"word":"bit","startTime":{"seconds":13,"nanos":"300000000","finalseconds":13,"finalnanos":"300000000"},"endTime":{"seconds":13,"nanos":"400000000","finalseconds":13,"finalnanos":"400000000"}},{"word":"easier?","startTime":{"seconds":13,"nanos":"400000000","finalseconds":13,"finalnanos":"400000000"},"endTime":{"seconds":13,"nanos":"400000000","finalseconds":13,"finalnanos":"400000000"}}],"transcript":"There anything I can assist you with to make things a bit easier?","confidence":1}],"isFinal":true,"speechFinal":true,"resultEndTime":{"seconds":2,"nanos":"700000000"},"sno":1752509741173,"requestid":"aa761dd6-cacc-4359-9218-38f4f342f481","track":0,"participant_label":"+18559421624"}]},{"results":[{"alternatives":[{"words":[{"word":"You","startTime":{"seconds":13,"nanos":"900000000","finalseconds":13,"finalnanos":"900000000"},"endTime":{"seconds":14,"nanos":"000000000","finalseconds":14,"finalnanos":"000000000"}},{"word":"can","startTime":{"seconds":14,"nanos":"000000000","finalseconds":14,"finalnanos":"000000000"},"endTime":{"seconds":14,"nanos":"200000000","finalseconds":14,"finalnanos":"200000000"}},{"word":"just","startTime":{"seconds":14,"nanos":"200000000","finalseconds":14,"finalnanos":"200000000"},"endTime":{"seconds":14,"nanos":"500000000","finalseconds":14,"finalnanos":"500000000"}},{"word":"stay","startTime":{"seconds":14,"nanos":"500000000","finalseconds":14,"finalnanos":"500000000"},"endTime":{"seconds":14,"nanos":"900000000","finalseconds":14,"finalnanos":"900000000"}},{"word":"quiet","startTime":{"seconds":14,"nanos":"900000000","finalseconds":14,"finalnanos":"900000000"},"endTime":{"seconds":15,"nanos":"300000000","finalseconds":15,"finalnanos":"300000000"}}],"transcript":"You can just stay quiet","confidence":0.9970703}],"isFinal":true,"speechFinal":false,"resultEndTime":{"seconds":4,"nanos":"100000000"},"sno":1752509743825,"requestid":"71aa946e-ffa5-429b-b5f0-7ab860230742","track":1,"participant_label":"debjyoti"}]},{"results":[{"alternatives":[{"words":[{"word":"for","startTime":{"seconds":15,"nanos":"500000000","finalseconds":15,"finalnanos":"500000000"},"endTime":{"seconds":15,"nanos":"800000000","finalseconds":15,"finalnanos":"800000000"}},{"word":"five","startTime":{"seconds":15,"nanos":"800000000","finalseconds":15,"finalnanos":"800000000"},"endTime":{"seconds":16,"nanos":"100000000","finalseconds":16,"finalnanos":"100000000"}},{"word":"minute.","startTime":{"seconds":16,"nanos":"100000000","finalseconds":16,"finalnanos":"100000000"},"endTime":{"seconds":16,"nanos":"300000000","finalseconds":16,"finalnanos":"300000000"}}],"transcript":"for five minute.","confidence":0.9970703}],"isFinal":true,"speechFinal":true,"resultEndTime":{"seconds":1,"nanos":"000000000"},"sno":1752509744023,"requestid":"71aa946e-ffa5-429b-b5f0-7ab860230742","track":1,"participant_label":"debjyoti"}]},{"results":[{"alternatives":[{"words":[{"word":"I","startTime":{"seconds":18,"nanos":"200000000","finalseconds":18,"finalnanos":"200000000"},"endTime":{"seconds":18,"nanos":"400000000","finalseconds":18,"finalnanos":"400000000"}},{"word":"understand.","startTime":{"seconds":18,"nanos":"400000000","finalseconds":18,"finalnanos":"400000000"},"endTime":{"seconds":18,"nanos":"900000000","finalseconds":18,"finalnanos":"900000000"}},{"word":"Take","startTime":{"seconds":19,"nanos":"200000000","finalseconds":19,"finalnanos":"200000000"},"endTime":{"seconds":19,"nanos":"400000000","finalseconds":19,"finalnanos":"400000000"}},{"word":"your","startTime":{"seconds":19,"nanos":"400000000","finalseconds":19,"finalnanos":"400000000"},"endTime":{"seconds":19,"nanos":"600000000","finalseconds":19,"finalnanos":"600000000"}},{"word":"time","startTime":{"seconds":19,"nanos":"600000000","finalseconds":19,"finalnanos":"600000000"},"endTime":{"seconds":19,"nanos":"900000000","finalseconds":19,"finalnanos":"900000000"}},{"word":"and","startTime":{"seconds":19,"nanos":"900000000","finalseconds":19,"finalnanos":"900000000"},"endTime":{"seconds":20,"nanos":"000000000","finalseconds":20,"finalnanos":"000000000"}},{"word":"let","startTime":{"seconds":20,"nanos":"000000000","finalseconds":20,"finalnanos":"000000000"},"endTime":{"seconds":20,"nanos":"000000000","finalseconds":20,"finalnanos":"000000000"}},{"word":"me","startTime":{"seconds":20,"nanos":"000000000","finalseconds":20,"finalnanos":"000000000"},"endTime":{"seconds":20,"nanos":"200000000","finalseconds":20,"finalnanos":"200000000"}},{"word":"know","startTime":{"seconds":20,"nanos":"200000000","finalseconds":20,"finalnanos":"200000000"},"endTime":{"seconds":20,"nanos":"400000000","finalseconds":20,"finalnanos":"400000000"}},{"word":"if","startTime":{"seconds":20,"nanos":"400000000","finalseconds":20,"finalnanos":"400000000"},"endTime":{"seconds":20,"nanos":"500000000","finalseconds":20,"finalnanos":"500000000"}},{"word":"you","startTime":{"seconds":20,"nanos":"500000000","finalseconds":20,"finalnanos":"500000000"},"endTime":{"seconds":20,"nanos":"700000000","finalseconds":20,"finalnanos":"700000000"}},{"word":"need","startTime":{"seconds":20,"nanos":"700000000","finalseconds":20,"finalnanos":"700000000"},"endTime":{"seconds":20,"nanos":"900000000","finalseconds":20,"finalnanos":"900000000"}},{"word":"anything.","startTime":{"seconds":20,"nanos":"900000000","finalseconds":20,"finalnanos":"900000000"},"endTime":{"seconds":21,"nanos":"400000000","finalseconds":21,"finalnanos":"400000000"}}],"transcript":"I understand. Take your time and let me know if you need anything.","confidence":1}],"isFinal":true,"speechFinal":true,"resultEndTime":{"seconds":3,"nanos":"900000000"},"sno":1752509749286,"requestid":"aa761dd6-cacc-4359-9218-38f4f342f481","track":0,"participant_label":"+18559421624"}]}],"completetranscription":"Hello. Thank you for calling one hundred and twenty three. I am Anna. How are you doing? I'm doing very bad. I'm really sorry to hear that. There anything I can assist you with to make things a bit easier? You can just stay quiet for five minute. I understand. Take your time and let me know if you need anything. ","datetime":1752509751,"startTime":1752509727,"endTime":1752509751,"metadata":{"accountSid":"AC3b6ada2609ecb3e3faa82bfe0564a4ac","streamSid":"MZa14cb8117a4823e4d1836ae98067f623","callSid":"CAf727b913dd9d797a8a4820981385787c","tracks":["inbound","outbound"],"mediaFormat":{"encoding":"audio/x-mulaw","sampleRate":8000,"channels":1},"customParameters":{"call_flow_type":"normal","track1_label":"debjyoti","track0_label":"+18559421624"}},"callduration":24,"callsid":"nsnzuxn6boq"}
+{
+  "transcription": [
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Hello.",
+                  "startTime": {
+                    "seconds": 1,
+                    "nanos": "700000000",
+                    "finalseconds": 1,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 2,
+                    "nanos": "200000000",
+                    "finalseconds": 2,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603208.963
+                }
+              ],
+              "transcript": "Hello.",
+              "confidence": 0.9562988
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 0,
+            "nanos": "900000000"
+          },
+          "sno": 1752603210756,
+          "requestid": "ac6a3c15-e077-4722-a7bd-621f218ce810",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "You",
+                  "startTime": {
+                    "seconds": 2,
+                    "nanos": "800000000",
+                    "finalseconds": 2,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 3,
+                    "nanos": "000000000",
+                    "finalseconds": 3,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603210.063
+                },
+                {
+                  "word": "for",
+                  "startTime": {
+                    "seconds": 3,
+                    "nanos": "000000000",
+                    "finalseconds": 3,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 3,
+                    "nanos": "200000000",
+                    "finalseconds": 3,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603210.263
+                },
+                {
+                  "word": "calling",
+                  "startTime": {
+                    "seconds": 3,
+                    "nanos": "200000000",
+                    "finalseconds": 3,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 3,
+                    "nanos": "400000000",
+                    "finalseconds": 3,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603210.463
+                },
+                {
+                  "word": "one",
+                  "startTime": {
+                    "seconds": 3,
+                    "nanos": "400000000",
+                    "finalseconds": 3,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 3,
+                    "nanos": "700000000",
+                    "finalseconds": 3,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603210.663
+                },
+                {
+                  "word": "hundred",
+                  "startTime": {
+                    "seconds": 3,
+                    "nanos": "700000000",
+                    "finalseconds": 3,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 3,
+                    "nanos": "800000000",
+                    "finalseconds": 3,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752603210.963
+                },
+                {
+                  "word": "and",
+                  "startTime": {
+                    "seconds": 3,
+                    "nanos": "800000000",
+                    "finalseconds": 3,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "100000000",
+                    "finalseconds": 4,
+                    "finalnanos": "100000000"
+                  },
+                  "offset_in_recording": 1752603211.063
+                },
+                {
+                  "word": "twenty",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "100000000",
+                    "finalseconds": 4,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "200000000",
+                    "finalseconds": 4,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603211.363
+                },
+                {
+                  "word": "three.",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "200000000",
+                    "finalseconds": 4,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "500000000",
+                    "finalseconds": 4,
+                    "finalnanos": "500000000"
+                  },
+                  "offset_in_recording": 1752603211.463
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "500000000",
+                    "finalseconds": 4,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "600000000",
+                    "finalseconds": 4,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603211.763
+                },
+                {
+                  "word": "am",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "600000000",
+                    "finalseconds": 4,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 4,
+                    "nanos": "800000000",
+                    "finalseconds": 4,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752603211.863
+                },
+                {
+                  "word": "Anna.",
+                  "startTime": {
+                    "seconds": 4,
+                    "nanos": "800000000",
+                    "finalseconds": 4,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 5,
+                    "nanos": "100000000",
+                    "finalseconds": 5,
+                    "finalnanos": "100000000"
+                  },
+                  "offset_in_recording": 1752603212.063
+                },
+                {
+                  "word": "How",
+                  "startTime": {
+                    "seconds": 5,
+                    "nanos": "100000000",
+                    "finalseconds": 5,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 5,
+                    "nanos": "300000000",
+                    "finalseconds": 5,
+                    "finalnanos": "300000000"
+                  },
+                  "offset_in_recording": 1752603212.363
+                },
+                {
+                  "word": "are",
+                  "startTime": {
+                    "seconds": 5,
+                    "nanos": "300000000",
+                    "finalseconds": 5,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 5,
+                    "nanos": "400000000",
+                    "finalseconds": 5,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603212.563
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 5,
+                    "nanos": "400000000",
+                    "finalseconds": 5,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 5,
+                    "nanos": "400000000",
+                    "finalseconds": 5,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603212.663
+                },
+                {
+                  "word": "doing?",
+                  "startTime": {
+                    "seconds": 5,
+                    "nanos": "400000000",
+                    "finalseconds": 5,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 5,
+                    "nanos": "900000000",
+                    "finalseconds": 5,
+                    "finalnanos": "900000000"
+                  },
+                  "offset_in_recording": 1752603212.663
+                }
+              ],
+              "transcript": "You for calling one hundred and twenty three. I am Anna. How are you doing?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 3,
+            "nanos": "500000000"
+          },
+          "sno": 1752603213829,
+          "requestid": "ac6a3c15-e077-4722-a7bd-621f218ce810",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "I'm",
+                  "startTime": {
+                    "seconds": 8,
+                    "nanos": "300000000",
+                    "finalseconds": 8,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 8,
+                    "nanos": "600000000",
+                    "finalseconds": 8,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603215.468
+                },
+                {
+                  "word": "doing",
+                  "startTime": {
+                    "seconds": 8,
+                    "nanos": "600000000",
+                    "finalseconds": 8,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 8,
+                    "nanos": "900000000",
+                    "finalseconds": 8,
+                    "finalnanos": "900000000"
+                  },
+                  "offset_in_recording": 1752603215.768
+                },
+                {
+                  "word": "good.",
+                  "startTime": {
+                    "seconds": 8,
+                    "nanos": "900000000",
+                    "finalseconds": 8,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 9,
+                    "nanos": "300000000",
+                    "finalseconds": 9,
+                    "finalnanos": "300000000"
+                  },
+                  "offset_in_recording": 1752603216.068
+                }
+              ],
+              "transcript": "I'm doing good.",
+              "confidence": 0.9663086
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 4,
+            "nanos": "500000000"
+          },
+          "sno": 1752603216976,
+          "requestid": "922da0e3-c89c-45a4-8185-1aeb8561764b",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Are",
+                  "startTime": {
+                    "seconds": 9,
+                    "nanos": "300000000",
+                    "finalseconds": 9,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 9,
+                    "nanos": "700000000",
+                    "finalseconds": 9,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603216.468
+                },
+                {
+                  "word": "you?",
+                  "startTime": {
+                    "seconds": 9,
+                    "nanos": "700000000",
+                    "finalseconds": 9,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 10,
+                    "nanos": "000000000",
+                    "finalseconds": 10,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603216.868
+                }
+              ],
+              "transcript": "Are you?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 0,
+            "nanos": "700000000"
+          },
+          "sno": 1752603217718,
+          "requestid": "922da0e3-c89c-45a4-8185-1aeb8561764b",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "I'm",
+                  "startTime": {
+                    "seconds": 11,
+                    "nanos": "900000000",
+                    "finalseconds": 11,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "100000000",
+                    "finalseconds": 12,
+                    "finalnanos": "100000000"
+                  },
+                  "offset_in_recording": 1752603219.163
+                },
+                {
+                  "word": "doing",
+                  "startTime": {
+                    "seconds": 12,
+                    "nanos": "100000000",
+                    "finalseconds": 12,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "400000000",
+                    "finalseconds": 12,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603219.363
+                },
+                {
+                  "word": "great.",
+                  "startTime": {
+                    "seconds": 12,
+                    "nanos": "400000000",
+                    "finalseconds": 12,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "700000000",
+                    "finalseconds": 12,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603219.663
+                },
+                {
+                  "word": "Thank",
+                  "startTime": {
+                    "seconds": 12,
+                    "nanos": "700000000",
+                    "finalseconds": 12,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 12,
+                    "nanos": "900000000",
+                    "finalseconds": 12,
+                    "finalnanos": "900000000"
+                  },
+                  "offset_in_recording": 1752603219.963
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 12,
+                    "nanos": "900000000",
+                    "finalseconds": 12,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 13,
+                    "nanos": "000000000",
+                    "finalseconds": 13,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603220.163
+                },
+                {
+                  "word": "for",
+                  "startTime": {
+                    "seconds": 13,
+                    "nanos": "000000000",
+                    "finalseconds": 13,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 13,
+                    "nanos": "300000000",
+                    "finalseconds": 13,
+                    "finalnanos": "300000000"
+                  },
+                  "offset_in_recording": 1752603220.263
+                },
+                {
+                  "word": "asking.",
+                  "startTime": {
+                    "seconds": 13,
+                    "nanos": "300000000",
+                    "finalseconds": 13,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 13,
+                    "nanos": "800000000",
+                    "finalseconds": 13,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752603220.563
+                }
+              ],
+              "transcript": "I'm doing great. Thank you for asking.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 2,
+            "nanos": "900000000"
+          },
+          "sno": 1752603221494,
+          "requestid": "ac6a3c15-e077-4722-a7bd-621f218ce810",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Fantastic.",
+                  "startTime": {
+                    "seconds": 14,
+                    "nanos": "100000000",
+                    "finalseconds": 14,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 14,
+                    "nanos": "600000000",
+                    "finalseconds": 14,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603221.363
+                }
+              ],
+              "transcript": "Fantastic.",
+              "confidence": 0.9995117
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 0,
+            "nanos": "800000000"
+          },
+          "sno": 1752603222341,
+          "requestid": "ac6a3c15-e077-4722-a7bd-621f218ce810",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Before",
+                  "startTime": {
+                    "seconds": 14,
+                    "nanos": "800000000",
+                    "finalseconds": 14,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 15,
+                    "nanos": "200000000",
+                    "finalseconds": 15,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603222.063
+                },
+                {
+                  "word": "we",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "200000000",
+                    "finalseconds": 15,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 15,
+                    "nanos": "200000000",
+                    "finalseconds": 15,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603222.463
+                },
+                {
+                  "word": "dive",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "200000000",
+                    "finalseconds": 15,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 15,
+                    "nanos": "400000000",
+                    "finalseconds": 15,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603222.463
+                },
+                {
+                  "word": "in,",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "400000000",
+                    "finalseconds": 15,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 15,
+                    "nanos": "600000000",
+                    "finalseconds": 15,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603222.663
+                },
+                {
+                  "word": "to",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "600000000",
+                    "finalseconds": 15,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 15,
+                    "nanos": "700000000",
+                    "finalseconds": 15,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603222.863
+                },
+                {
+                  "word": "make",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "700000000",
+                    "finalseconds": 15,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 16,
+                    "nanos": "000000000",
+                    "finalseconds": 16,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603222.963
+                },
+                {
+                  "word": "sure",
+                  "startTime": {
+                    "seconds": 16,
+                    "nanos": "000000000",
+                    "finalseconds": 16,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 16,
+                    "nanos": "100000000",
+                    "finalseconds": 16,
+                    "finalnanos": "100000000"
+                  },
+                  "offset_in_recording": 1752603223.263
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 16,
+                    "nanos": "100000000",
+                    "finalseconds": 16,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 16,
+                    "nanos": "200000000",
+                    "finalseconds": 16,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603223.363
+                },
+                {
+                  "word": "address",
+                  "startTime": {
+                    "seconds": 16,
+                    "nanos": "200000000",
+                    "finalseconds": 16,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 16,
+                    "nanos": "600000000",
+                    "finalseconds": 16,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603223.463
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 16,
+                    "nanos": "600000000",
+                    "finalseconds": 16,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 16,
+                    "nanos": "800000000",
+                    "finalseconds": 16,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752603223.863
+                },
+                {
+                  "word": "properly,",
+                  "startTime": {
+                    "seconds": 16,
+                    "nanos": "800000000",
+                    "finalseconds": 16,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 17,
+                    "nanos": "300000000",
+                    "finalseconds": 17,
+                    "finalnanos": "300000000"
+                  },
+                  "offset_in_recording": 1752603224.063
+                },
+                {
+                  "word": "could",
+                  "startTime": {
+                    "seconds": 17,
+                    "nanos": "400000000",
+                    "finalseconds": 17,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 17,
+                    "nanos": "600000000",
+                    "finalseconds": 17,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603224.663
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 17,
+                    "nanos": "600000000",
+                    "finalseconds": 17,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 17,
+                    "nanos": "700000000",
+                    "finalseconds": 17,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603224.863
+                },
+                {
+                  "word": "please",
+                  "startTime": {
+                    "seconds": 17,
+                    "nanos": "700000000",
+                    "finalseconds": 17,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 18,
+                    "nanos": "000000000",
+                    "finalseconds": 18,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603224.963
+                },
+                {
+                  "word": "provide",
+                  "startTime": {
+                    "seconds": 18,
+                    "nanos": "000000000",
+                    "finalseconds": 18,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 18,
+                    "nanos": "400000000",
+                    "finalseconds": 18,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603225.263
+                },
+                {
+                  "word": "me",
+                  "startTime": {
+                    "seconds": 18,
+                    "nanos": "400000000",
+                    "finalseconds": 18,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 18,
+                    "nanos": "400000000",
+                    "finalseconds": 18,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603225.663
+                },
+                {
+                  "word": "with",
+                  "startTime": {
+                    "seconds": 18,
+                    "nanos": "400000000",
+                    "finalseconds": 18,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 18,
+                    "nanos": "600000000",
+                    "finalseconds": 18,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603225.663
+                },
+                {
+                  "word": "your",
+                  "startTime": {
+                    "seconds": 18,
+                    "nanos": "600000000",
+                    "finalseconds": 18,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 18,
+                    "nanos": "800000000",
+                    "finalseconds": 18,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752603225.863
+                },
+                {
+                  "word": "full",
+                  "startTime": {
+                    "seconds": 18,
+                    "nanos": "800000000",
+                    "finalseconds": 18,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 19,
+                    "nanos": "000000000",
+                    "finalseconds": 19,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603226.063
+                },
+                {
+                  "word": "name?",
+                  "startTime": {
+                    "seconds": 19,
+                    "nanos": "000000000",
+                    "finalseconds": 19,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 19,
+                    "nanos": "400000000",
+                    "finalseconds": 19,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603226.263
+                }
+              ],
+              "transcript": "Before we dive in, to make sure I address you properly, could you please provide me with your full name?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 4,
+            "nanos": "700000000"
+          },
+          "sno": 1752603227099,
+          "requestid": "ac6a3c15-e077-4722-a7bd-621f218ce810",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "My",
+                  "startTime": {
+                    "seconds": 19,
+                    "nanos": "900000000",
+                    "finalseconds": 19,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "200000000",
+                    "finalseconds": 20,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603227.068
+                },
+                {
+                  "word": "full",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "200000000",
+                    "finalseconds": 20,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "300000000",
+                    "finalseconds": 20,
+                    "finalnanos": "300000000"
+                  },
+                  "offset_in_recording": 1752603227.368
+                },
+                {
+                  "word": "name",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "300000000",
+                    "finalseconds": 20,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "600000000",
+                    "finalseconds": 20,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603227.468
+                },
+                {
+                  "word": "is",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "600000000",
+                    "finalseconds": 20,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "700000000",
+                    "finalseconds": 20,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603227.768
+                },
+                {
+                  "word": "Devyoti",
+                  "startTime": {
+                    "seconds": 20,
+                    "nanos": "700000000",
+                    "finalseconds": 20,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 21,
+                    "nanos": "200000000",
+                    "finalseconds": 21,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603227.868
+                },
+                {
+                  "word": "Pani.",
+                  "startTime": {
+                    "seconds": 21,
+                    "nanos": "400000000",
+                    "finalseconds": 21,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 21,
+                    "nanos": "600000000",
+                    "finalseconds": 21,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603228.568
+                }
+              ],
+              "transcript": "My full name is Devyoti Pani.",
+              "confidence": 0.98828125
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 3,
+            "nanos": "000000000"
+          },
+          "sno": 1752603229314,
+          "requestid": "922da0e3-c89c-45a4-8185-1aeb8561764b",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Thanks,",
+                  "startTime": {
+                    "seconds": 23,
+                    "nanos": "800000000",
+                    "finalseconds": 23,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 24,
+                    "nanos": "200000000",
+                    "finalseconds": 24,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603231.063
+                },
+                {
+                  "word": "Dev",
+                  "startTime": {
+                    "seconds": 24,
+                    "nanos": "200000000",
+                    "finalseconds": 24,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 24,
+                    "nanos": "500000000",
+                    "finalseconds": 24,
+                    "finalnanos": "500000000"
+                  },
+                  "offset_in_recording": 1752603231.463
+                },
+                {
+                  "word": "Jodie",
+                  "startTime": {
+                    "seconds": 24,
+                    "nanos": "500000000",
+                    "finalseconds": 24,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 24,
+                    "nanos": "700000000",
+                    "finalseconds": 24,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603231.763
+                },
+                {
+                  "word": "Pandit.",
+                  "startTime": {
+                    "seconds": 24,
+                    "nanos": "700000000",
+                    "finalseconds": 24,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 25,
+                    "nanos": "100000000",
+                    "finalseconds": 25,
+                    "finalnanos": "100000000"
+                  },
+                  "offset_in_recording": 1752603231.963
+                },
+                {
+                  "word": "Could",
+                  "startTime": {
+                    "seconds": 25,
+                    "nanos": "100000000",
+                    "finalseconds": 25,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 25,
+                    "nanos": "300000000",
+                    "finalseconds": 25,
+                    "finalnanos": "300000000"
+                  },
+                  "offset_in_recording": 1752603232.363
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 25,
+                    "nanos": "300000000",
+                    "finalseconds": 25,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 25,
+                    "nanos": "400000000",
+                    "finalseconds": 25,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603232.563
+                },
+                {
+                  "word": "tell",
+                  "startTime": {
+                    "seconds": 25,
+                    "nanos": "400000000",
+                    "finalseconds": 25,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 25,
+                    "nanos": "600000000",
+                    "finalseconds": 25,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603232.663
+                },
+                {
+                  "word": "us",
+                  "startTime": {
+                    "seconds": 25,
+                    "nanos": "600000000",
+                    "finalseconds": 25,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 25,
+                    "nanos": "700000000",
+                    "finalseconds": 25,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603232.863
+                },
+                {
+                  "word": "a",
+                  "startTime": {
+                    "seconds": 25,
+                    "nanos": "700000000",
+                    "finalseconds": 25,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 25,
+                    "nanos": "800000000",
+                    "finalseconds": 25,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752603232.963
+                },
+                {
+                  "word": "bit",
+                  "startTime": {
+                    "seconds": 25,
+                    "nanos": "800000000",
+                    "finalseconds": 25,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 26,
+                    "nanos": "000000000",
+                    "finalseconds": 26,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603233.063
+                },
+                {
+                  "word": "more",
+                  "startTime": {
+                    "seconds": 26,
+                    "nanos": "000000000",
+                    "finalseconds": 26,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 26,
+                    "nanos": "200000000",
+                    "finalseconds": 26,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603233.263
+                },
+                {
+                  "word": "about",
+                  "startTime": {
+                    "seconds": 26,
+                    "nanos": "200000000",
+                    "finalseconds": 26,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 26,
+                    "nanos": "400000000",
+                    "finalseconds": 26,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603233.463
+                },
+                {
+                  "word": "yourself",
+                  "startTime": {
+                    "seconds": 26,
+                    "nanos": "400000000",
+                    "finalseconds": 26,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 26,
+                    "nanos": "600000000",
+                    "finalseconds": 26,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603233.663
+                },
+                {
+                  "word": "and",
+                  "startTime": {
+                    "seconds": 26,
+                    "nanos": "600000000",
+                    "finalseconds": 26,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 26,
+                    "nanos": "900000000",
+                    "finalseconds": 26,
+                    "finalnanos": "900000000"
+                  },
+                  "offset_in_recording": 1752603233.863
+                },
+                {
+                  "word": "where",
+                  "startTime": {
+                    "seconds": 26,
+                    "nanos": "900000000",
+                    "finalseconds": 26,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 27,
+                    "nanos": "000000000",
+                    "finalseconds": 27,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603234.163
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 27,
+                    "nanos": "000000000",
+                    "finalseconds": 27,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 27,
+                    "nanos": "100000000",
+                    "finalseconds": 27,
+                    "finalnanos": "100000000"
+                  },
+                  "offset_in_recording": 1752603234.263
+                },
+                {
+                  "word": "heard",
+                  "startTime": {
+                    "seconds": 27,
+                    "nanos": "100000000",
+                    "finalseconds": 27,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 27,
+                    "nanos": "300000000",
+                    "finalseconds": 27,
+                    "finalnanos": "300000000"
+                  },
+                  "offset_in_recording": 1752603234.363
+                },
+                {
+                  "word": "about",
+                  "startTime": {
+                    "seconds": 27,
+                    "nanos": "300000000",
+                    "finalseconds": 27,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 27,
+                    "nanos": "600000000",
+                    "finalseconds": 27,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603234.563
+                },
+                {
+                  "word": "one",
+                  "startTime": {
+                    "seconds": 27,
+                    "nanos": "600000000",
+                    "finalseconds": 27,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 27,
+                    "nanos": "700000000",
+                    "finalseconds": 27,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603234.863
+                },
+                {
+                  "word": "hundred",
+                  "startTime": {
+                    "seconds": 27,
+                    "nanos": "700000000",
+                    "finalseconds": 27,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 28,
+                    "nanos": "100000000",
+                    "finalseconds": 28,
+                    "finalnanos": "100000000"
+                  },
+                  "offset_in_recording": 1752603234.963
+                },
+                {
+                  "word": "twenty",
+                  "startTime": {
+                    "seconds": 28,
+                    "nanos": "100000000",
+                    "finalseconds": 28,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 28,
+                    "nanos": "600000000",
+                    "finalseconds": 28,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603235.363
+                },
+                {
+                  "word": "three?",
+                  "startTime": {
+                    "seconds": 28,
+                    "nanos": "600000000",
+                    "finalseconds": 28,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 29,
+                    "nanos": "000000000",
+                    "finalseconds": 29,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603235.863
+                }
+              ],
+              "transcript": "Thanks, Dev Jodie Pandit. Could you tell us a bit more about yourself and where you heard about one hundred twenty three?",
+              "confidence": 0.99902344
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 5,
+            "nanos": "800000000"
+          },
+          "sno": 1752603236631,
+          "requestid": "ac6a3c15-e077-4722-a7bd-621f218ce810",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Can",
+                  "startTime": {
+                    "seconds": 29,
+                    "nanos": "000000000",
+                    "finalseconds": 29,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 29,
+                    "nanos": "200000000",
+                    "finalseconds": 29,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603236.168
+                },
+                {
+                  "word": "you",
+                  "startTime": {
+                    "seconds": 29,
+                    "nanos": "200000000",
+                    "finalseconds": 29,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 29,
+                    "nanos": "500000000",
+                    "finalseconds": 29,
+                    "finalnanos": "500000000"
+                  },
+                  "offset_in_recording": 1752603236.368
+                },
+                {
+                  "word": "please",
+                  "startTime": {
+                    "seconds": 29,
+                    "nanos": "500000000",
+                    "finalseconds": 29,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 29,
+                    "nanos": "700000000",
+                    "finalseconds": 29,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603236.668
+                },
+                {
+                  "word": "hold",
+                  "startTime": {
+                    "seconds": 29,
+                    "nanos": "700000000",
+                    "finalseconds": 29,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 29,
+                    "nanos": "900000000",
+                    "finalseconds": 29,
+                    "finalnanos": "900000000"
+                  },
+                  "offset_in_recording": 1752603236.868
+                },
+                {
+                  "word": "for",
+                  "startTime": {
+                    "seconds": 29,
+                    "nanos": "900000000",
+                    "finalseconds": 29,
+                    "finalnanos": "900000000"
+                  },
+                  "endTime": {
+                    "seconds": 30,
+                    "nanos": "100000000",
+                    "finalseconds": 30,
+                    "finalnanos": "100000000"
+                  },
+                  "offset_in_recording": 1752603237.068
+                },
+                {
+                  "word": "a",
+                  "startTime": {
+                    "seconds": 30,
+                    "nanos": "100000000",
+                    "finalseconds": 30,
+                    "finalnanos": "100000000"
+                  },
+                  "endTime": {
+                    "seconds": 30,
+                    "nanos": "200000000",
+                    "finalseconds": 30,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603237.268
+                },
+                {
+                  "word": "minute?",
+                  "startTime": {
+                    "seconds": 30,
+                    "nanos": "200000000",
+                    "finalseconds": 30,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 30,
+                    "nanos": "400000000",
+                    "finalseconds": 30,
+                    "finalnanos": "400000000"
+                  },
+                  "offset_in_recording": 1752603237.368
+                },
+                {
+                  "word": "I",
+                  "startTime": {
+                    "seconds": 30,
+                    "nanos": "400000000",
+                    "finalseconds": 30,
+                    "finalnanos": "400000000"
+                  },
+                  "endTime": {
+                    "seconds": 30,
+                    "nanos": "800000000",
+                    "finalseconds": 30,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752603237.568
+                },
+                {
+                  "word": "will",
+                  "startTime": {
+                    "seconds": 30,
+                    "nanos": "800000000",
+                    "finalseconds": 30,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 31,
+                    "nanos": "000000000",
+                    "finalseconds": 31,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603237.968
+                }
+              ],
+              "transcript": "Can you please hold for a minute? I will",
+              "confidence": 0.9951172
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 2,
+            "nanos": "300000000"
+          },
+          "sno": 1752603238584,
+          "requestid": "922da0e3-c89c-45a4-8185-1aeb8561764b",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "transfer",
+                  "startTime": {
+                    "seconds": 32,
+                    "nanos": "000000000",
+                    "finalseconds": 32,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 32,
+                    "nanos": "100000000",
+                    "finalseconds": 32,
+                    "finalnanos": "100000000"
+                  },
+                  "offset_in_recording": 1752603239.168
+                }
+              ],
+              "transcript": "transfer",
+              "confidence": 0.7763672
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 1,
+            "nanos": "100000000"
+          },
+          "sno": 1752603239761,
+          "requestid": "922da0e3-c89c-45a4-8185-1aeb8561764b",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Of",
+                  "startTime": {
+                    "seconds": 35,
+                    "nanos": "800000000",
+                    "finalseconds": 35,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 35,
+                    "nanos": "800000000",
+                    "finalseconds": 35,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752603243.063
+                },
+                {
+                  "word": "course.",
+                  "startTime": {
+                    "seconds": 35,
+                    "nanos": "800000000",
+                    "finalseconds": 35,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 36,
+                    "nanos": "200000000",
+                    "finalseconds": 36,
+                    "finalnanos": "200000000"
+                  },
+                  "offset_in_recording": 1752603243.063
+                },
+                {
+                  "word": "Take",
+                  "startTime": {
+                    "seconds": 36,
+                    "nanos": "200000000",
+                    "finalseconds": 36,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 36,
+                    "nanos": "300000000",
+                    "finalseconds": 36,
+                    "finalnanos": "300000000"
+                  },
+                  "offset_in_recording": 1752603243.463
+                },
+                {
+                  "word": "your",
+                  "startTime": {
+                    "seconds": 36,
+                    "nanos": "300000000",
+                    "finalseconds": 36,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 36,
+                    "nanos": "600000000",
+                    "finalseconds": 36,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603243.563
+                },
+                {
+                  "word": "time.",
+                  "startTime": {
+                    "seconds": 36,
+                    "nanos": "600000000",
+                    "finalseconds": 36,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "000000000",
+                    "finalseconds": 37,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603243.863
+                }
+              ],
+              "transcript": "Of course. Take your time.",
+              "confidence": 0.9946289
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 3,
+            "nanos": "500000000"
+          },
+          "sno": 1752603244672,
+          "requestid": "ac6a3c15-e077-4722-a7bd-621f218ce810",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Me",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "300000000",
+                    "finalseconds": 37,
+                    "finalnanos": "300000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "500000000",
+                    "finalseconds": 37,
+                    "finalnanos": "500000000"
+                  },
+                  "offset_in_recording": 1752603244.563
+                },
+                {
+                  "word": "know",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "500000000",
+                    "finalseconds": 37,
+                    "finalnanos": "500000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "600000000",
+                    "finalseconds": 37,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752603244.763
+                },
+                {
+                  "word": "when",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "600000000",
+                    "finalseconds": 37,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "700000000",
+                    "finalseconds": 37,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603244.863
+                },
+                {
+                  "word": "you're",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "700000000",
+                    "finalseconds": 37,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "700000000",
+                    "finalseconds": 37,
+                    "finalnanos": "700000000"
+                  },
+                  "offset_in_recording": 1752603244.963
+                },
+                {
+                  "word": "ready",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "700000000",
+                    "finalseconds": 37,
+                    "finalnanos": "700000000"
+                  },
+                  "endTime": {
+                    "seconds": 37,
+                    "nanos": "800000000",
+                    "finalseconds": 37,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752603244.963
+                },
+                {
+                  "word": "to",
+                  "startTime": {
+                    "seconds": 37,
+                    "nanos": "800000000",
+                    "finalseconds": 37,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 38,
+                    "nanos": "000000000",
+                    "finalseconds": 38,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752603245.063
+                },
+                {
+                  "word": "continue.",
+                  "startTime": {
+                    "seconds": 38,
+                    "nanos": "000000000",
+                    "finalseconds": 38,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 38,
+                    "nanos": "500000000",
+                    "finalseconds": 38,
+                    "finalnanos": "500000000"
+                  },
+                  "offset_in_recording": 1752603245.263
+                }
+              ],
+              "transcript": "Me know when you're ready to continue.",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": {
+            "seconds": 1,
+            "nanos": "600000000"
+          },
+          "sno": 1752603246320,
+          "requestid": "ac6a3c15-e077-4722-a7bd-621f218ce810",
+          "track": 0,
+          "participant_label": "+18559421624"
+        }
+      ]
+    }
+  ],
+  "completetranscription": "Hello. You for calling one hundred and twenty three. I am Anna. How are you doing? I'm doing good. Are you? I'm doing great. Thank you for asking. Fantastic. Before we dive in, to make sure I address you properly, could you please provide me with your full name? My full name is Devyoti Pani. Thanks, Dev Jodie Pandit. Could you tell us a bit more about yourself and where you heard about one hundred twenty three? Can you please hold for a minute? I will transfer Of course. Take your time. Me know when you're ready to continue. ",
+  "datetime": 1752603257,
+  "startTime": 1752603207,
+  "endTime": 1752603257,
+  "callduration": 50,
+  "participant_label": "",
+  "metadata": {
+    "accountSid": "AC3b6ada2609ecb3e3faa82bfe0564a4ac",
+    "streamSid": "MZc7706fabda8e79268d99728ff9e95fd2",
+    "callSid": "CAcaca4ed0e72e52554df79c036b993961",
+    "tracks": [
+      "inbound",
+      "outbound"
+    ],
+    "mediaFormat": {
+      "encoding": "audio/x-mulaw",
+      "sampleRate": 8000,
+      "channels": 1
+    },
+    "customParameters": {
+      "track1_label": "deb",
+      "call_flow_type": "normal",
+      "track0_label": "+18559421624"
+    }
+  }
+}
