@@ -1,86 +1,76 @@
+require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
+const twilio = require('twilio');
 
-function mergeTranscripts(){
+const accountSid = process.env.TWILIO_ACCOUNT_SID;
+const authToken = process.env.TWILIO_AUTH_TOKEN;
+
+const client = twilio(accountSid, authToken);
+
+async function mergeTranscripts(){
   const transcriptFiles = fs.readdirSync(path.join(__dirname, 'transcription3')).filter(file => file.endsWith('.json'));
   // identity transcription with metaData.customParameters.call_flow_type = normal
   const parentFile = transcriptFiles.find(file => JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8')).metadata.customParameters.call_flow_type === 'normal');
   const parentTranscription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', parentFile), 'utf8'));
 
-  // const trackMap = new Map();
-  // const customerLabel = parentTranscription.metadata.customParameters.track1_label;
-  // console.log('customerLabel', customerLabel);
-  // let currentTrackCount = 1;
-  // trackMap.set(parentTranscription.metadata.customParameters.track0_label, 0);
-  // trackMap.set(parentTranscription.metadata.customParameters.track1_label, 1);
+  const baseCallDuration = parentTranscription.callduration;
+  let baseCallRecordingLength = baseCallDuration;
+  await client.recordings
+  .list({ callSid: parentTranscription.metadata.callSid })
+  .then(recordings => {
+    recordings.forEach(rec => {
+      baseCallRecordingLength = parseInt(rec.duration);
+    });
+  })
+  .catch(err => {
+    console.error('Error fetching recordings:', err);
+  });
 
-  // console.log('Currently trackMap', trackMap); 
- 
-  // const totalCallDuration = 146; // we need this somehow for correct mapping
-  const baseEndTime = parentTranscription.endTime;
-  const baseCallDuration = parentTranscription.callduration; // 66
   const otherTranscriptionFiles = transcriptFiles.filter(file => file !== parentFile);
 
   // Array to store all processed transcriptions
   const allTranscriptions = [parentTranscription];
   const allCallDurations = [baseCallDuration];
 
-  // let conferenceCallDuration = 0;
-  // otherTranscriptionFiles.forEach((file) => {
-  //   const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8'));
-  //   conferenceCallDuration = transcription.callduration > conferenceCallDuration ? transcription.callduration : conferenceCallDuration;
-  // })
 
-  // console.log('baseCallDuration:', baseCallDuration);
-  // console.log('conferenceCallDuration:', conferenceCallDuration);
-  // console.log('totalCallDuration:', totalCallDuration);
-  
-  // const callDurationDiff = Math.abs(baseCallDuration + conferenceCallDuration - totalCallDuration);
-  // console.log('callDurationDiff:', callDurationDiff);
-  
+  let conferenceRecordingTime = 0;
+  otherTranscriptionFiles.forEach((file) => {
+    // find conferenceRecrodingTime;
+    const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8'));
+    conferenceRecordingTime = Math.max(transcription.metadata.customParameters.recording_start_time_in_epoch_seconds, conferenceRecordingTime);
+  })
+
+
+  const {seconds: confereceStartTimeSeconds, nanos: confereceStartTimeNanos} = splitEpochSeconds(parseFloat(conferenceRecordingTime));
+
 
   otherTranscriptionFiles.forEach((file) => {
     // for each transcription we have to add (offset = this file startTime - baseEndTime) in every word startTime and endTime
     const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8'));
-    // let extraOffset = 4;
-    // const participantLabel = transcription.metadata.customParameters.track1_label;
-    // if(participantLabel === "debjyoti"){
-    //   extraOffset = 5;
-    // }
-    console.log('transcription.startTime', transcription.startTime);
-    console.log('baseEndTime', baseEndTime);
-    console.log('baseCallDuration', baseCallDuration);
-    const offset = (transcription.metadata.customParameters.stream_start_time_in_epoch_seconds - baseEndTime) + baseCallDuration - (transcription.metadata.customParameters.delta_time_in_epoch_seconds);
-    console.log('offset', offset);
-    //  - (callDurationDiff);
+    const {seconds: streamStartTimeSeconds, nanos: streamStartTimeNanos} = splitEpochSeconds(parseFloat(transcription.metadata.customParameters.stream_start_time_in_epoch_seconds));
+    
+    const deltaTimeSeconds = streamStartTimeSeconds - confereceStartTimeSeconds;
+    const deltaTimeNanos = streamStartTimeNanos - confereceStartTimeNanos;
+    
+    const offsetSeconds = deltaTimeSeconds;
+    const offsetNanos = deltaTimeNanos;
+    
 
-    // console.log('participantLabel', participantLabel);
-    // console.log('trackMap', trackMap);
-
-    // let track = 0;
-    // if(trackMap.has(participantLabel)){
-    //   track = trackMap.get(participantLabel);
-    // } else {
-    //   currentTrackCount++;
-    //   trackMap.set(participantLabel, currentTrackCount);
-    //   track = currentTrackCount;
-    // }
     transcription.transcription.forEach(segment => {
       segment.results.forEach(result => {
         result.alternatives.forEach(alternative => {
           alternative.words.forEach(word => {
-            word.startTime.seconds += offset;
-            word.startTime.finalseconds += offset;
-            word.endTime.seconds += offset;
-            word.endTime.finalseconds += offset;
+            // Apply time offset to both startTime and endTime
+            addTimeOffset(word.startTime, offsetSeconds + baseCallRecordingLength, offsetNanos);
+            addTimeOffset(word.endTime, offsetSeconds + baseCallRecordingLength, offsetNanos);
           });
         });
-        // result.track = track;
       });
     });
-    // now from this, create new json with name transcription-{transcription.metadata.customParameters.track1_label}
-    // fs.writeFileSync(path.join(__dirname, 'transcription3', `transcription-${transcription.metadata.customParameters.track1_label}.json`), JSON.stringify(transcription, null, 2));
 
+    // now from this, create new json with name transcription-{transcription.metadata.customParameters.track1_label}-modified
+    // fs.writeFileSync(path.join(__dirname, 'transcription3', `transcription-${transcription.metadata.customParameters.track1_label}-modified.json`), JSON.stringify(transcription, null, 2));
     // Add to our collections for final merge
     allTranscriptions.push(transcription);
     allCallDurations.push(transcription.callduration);
@@ -242,6 +232,48 @@ function createCombinedTranscription(allTranscriptions, allCallDurations, baseCa
   combinedTranscription.completetranscription = allWords.map(word => word.word).join(" ");
 
   return combinedTranscription;
+}
+
+function splitEpochSeconds(epochDecimal) {
+  const seconds = Math.floor(epochDecimal);
+  const nanos = Math.round((epochDecimal - seconds) * 1_000_000_000);
+  return { seconds, nanos };
+}
+
+function addTimeOffset(timeObj, offsetSeconds, offsetNanos) {
+  const NANOS_PER_SECOND = 1_000_000_000;
+
+  // Add seconds offset
+  timeObj.seconds += offsetSeconds;
+  timeObj.finalseconds += offsetSeconds;
+  
+  // Add nanoseconds offset and handle overflow
+  let totalNanos = parseInt(timeObj.nanos) + parseInt(offsetNanos);
+  let totalFinalNanos = parseInt(timeObj.finalnanos) + parseInt(offsetNanos);
+
+  // Handle nanosecond overflow for nanos
+  if (totalNanos >= NANOS_PER_SECOND) {
+    timeObj.seconds += Math.floor(totalNanos / NANOS_PER_SECOND);
+    timeObj.nanos = convertNanosToString(totalNanos % NANOS_PER_SECOND);
+  } else {
+    timeObj.nanos = convertNanosToString(totalNanos);
+  }
+  
+  // Handle nanosecond overflow for finalnanos
+  if (totalFinalNanos >= NANOS_PER_SECOND) {
+    timeObj.finalseconds += Math.floor(totalFinalNanos / NANOS_PER_SECOND);
+    timeObj.finalnanos = convertNanosToString(totalFinalNanos % NANOS_PER_SECOND);
+  } else {
+    timeObj.finalnanos = convertNanosToString(totalFinalNanos);
+  }
+}
+
+function convertNanosToString(nanos) {
+  let nanosString = `${nanos}`;
+  while(nanosString.length < 9){
+    nanosString = '0' + nanosString;
+  }
+  return nanosString;
 }
 
 mergeTranscripts();

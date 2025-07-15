@@ -1,3 +1,4 @@
+require('dotenv').config();
 const EventEmitter = require('events');
 const WebSocket = require('ws');
 
@@ -75,7 +76,7 @@ class DeepgramService extends EventEmitter {
       }
       console.log('wss://api.deepgram.com/v1/listen?'+request);
       this.streamCreatedAt = new Date();
-      var creds = "b3196dbec09c7a6d87208d418de7d4eaedbcb129";
+      var creds = process.env.DEEPGRAM_API_KEY;
       try {
         this.stream = new WebSocket('wss://api.deepgram.com/v1/listen?'+request,{
             headers: {
