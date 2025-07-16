@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js > app.log 2>&1",
     "start:prod": "node main.js",
-    "merge": "node transcription-merger-final.js",
+    "merge": "node transcription-merger-14July.js",
     "tunnel": "ngrok http 3000",
     "dev": "concurrently \"pnpm start\" \"pnpm tunnel\"",
     "dev:tunnel": "ngrok http 3000 --log=stdout"
@@ -22,6 +22,7 @@
     "events": "^3.3.0",
     "express": "^5.1.0",
     "http": "0.0.1-security",
+    "mongodb": "^6.17.0",
     "ngrok": "5.0.0-beta.2",
     "twilio": "^5.7.3",
     "ws": "^8.18.3"

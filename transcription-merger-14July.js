@@ -2,6 +2,7 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const twilio = require('twilio');
+const { MongoClient } = require('mongodb');
 
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
@@ -9,10 +10,10 @@ const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = twilio(accountSid, authToken);
 
 async function mergeTranscripts(){
-  const transcriptFiles = fs.readdirSync(path.join(__dirname, 'transcription3')).filter(file => file.endsWith('.json'));
+  const transcriptFiles = fs.readdirSync(path.join(__dirname, 'transcriptions')).filter(file => file.endsWith('.json'));
   // identity transcription with metaData.customParameters.call_flow_type = normal
-  const parentFile = transcriptFiles.find(file => JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8')).metadata.customParameters.call_flow_type === 'normal');
-  const parentTranscription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', parentFile), 'utf8'));
+  const parentFile = transcriptFiles.find(file => JSON.parse(fs.readFileSync(path.join(__dirname, 'transcriptions', file), 'utf8')).metadata.customParameters.call_flow_type === 'normal');
+  const parentTranscription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcriptions', parentFile), 'utf8'));
 
   const baseCallDuration = parentTranscription.callduration;
   let baseCallRecordingLength = baseCallDuration;
@@ -37,10 +38,9 @@ async function mergeTranscripts(){
   let conferenceRecordingTime = 0;
   otherTranscriptionFiles.forEach((file) => {
     // find conferenceRecrodingTime;
-    const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8'));
+    const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcriptions', file), 'utf8'));
     conferenceRecordingTime = Math.max(transcription.metadata.customParameters.recording_start_time_in_epoch_seconds, conferenceRecordingTime);
   })
-  console.log("conferenceRecordingTime", conferenceRecordingTime);
 
 
   const {seconds: confereceStartTimeSeconds, nanos: confereceStartTimeNanos} = splitEpochSeconds(parseFloat(conferenceRecordingTime));
@@ -48,7 +48,7 @@ async function mergeTranscripts(){
 
   otherTranscriptionFiles.forEach((file) => {
     // for each transcription we have to add (offset = this file startTime - baseEndTime) in every word startTime and endTime
-    const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcription3', file), 'utf8'));
+    const transcription = JSON.parse(fs.readFileSync(path.join(__dirname, 'transcriptions', file), 'utf8'));
     const {seconds: streamStartTimeSeconds, nanos: streamStartTimeNanos} = splitEpochSeconds(parseFloat(transcription.metadata.customParameters.stream_start_time_in_epoch_seconds));
     
     const deltaTimeSeconds = streamStartTimeSeconds - confereceStartTimeSeconds;
@@ -70,8 +70,6 @@ async function mergeTranscripts(){
       });
     });
 
-    // now from this, create new json with name transcription-{transcription.metadata.customParameters.track1_label}-modified
-    // fs.writeFileSync(path.join(__dirname, 'transcription3', `transcription-${transcription.metadata.customParameters.track1_label}-modified.json`), JSON.stringify(transcription, null, 2));
     // Add to our collections for final merge
     allTranscriptions.push(transcription);
     allCallDurations.push(transcription.callduration);
@@ -79,9 +77,18 @@ async function mergeTranscripts(){
 
   // Now create a single combined JSON file
   const combinedTranscription = createCombinedTranscription(allTranscriptions, allCallDurations, baseCallDuration);
-  fs.writeFileSync(path.join(__dirname, 'transcription3', 'combined-transcription.json'), JSON.stringify(combinedTranscription, null, 2));
+  fs.writeFileSync(path.join(__dirname, 'transcriptions', 'combined-transcription.json'), JSON.stringify(combinedTranscription, null, 2));
   
   console.log('Combined transcription created successfully!');
+
+  // update mongo collection
+  await updateMongoCollection({
+    transcription: combinedTranscription.transcription,
+    completetranscription: combinedTranscription.completetranscription,
+    datetime: combinedTranscription.datetime,
+    startTime: combinedTranscription.startTime,
+    endTime: combinedTranscription.endTime,
+  })
 }
 
 function createCombinedTranscription(allTranscriptions, allCallDurations, baseCallDuration) {
@@ -128,12 +135,9 @@ function createCombinedTranscription(allTranscriptions, allCallDurations, baseCa
     // Quaternary: endTime nanos
     const aEndNanos = parseInt(a.endTime.nanos);
     const bEndNanos = parseInt(b.endTime.nanos);
-    if (aEndNanos !== bEndNanos) {
-      return aEndNanos - bEndNanos;
-    }
-    
-    // Final: word text
-    return a.word.localeCompare(b.word);
+
+    return aEndNanos - bEndNanos;
+
   });
 
   // Calculate global values
@@ -277,4 +281,18 @@ function convertNanosToString(nanos) {
   return nanosString;
 }
 
-mergeTranscripts();
+async function updateMongoCollection(newPayload) {
+  const client = new MongoClient(process.env.MONGO_CONNECTION_STRING);
+  await client.connect();
+  const db = client.db('justcall');
+  const collection = db.collection('callstranscription');
+  await collection.updateOne(
+    { callSid: 'CA4ed1c9633d77650f17be0e58ecc68ec2' },
+    { $set: newPayload }
+  );
+  await client.close();
+}
+
+(async () => {
+  await mergeTranscripts();
+})();
