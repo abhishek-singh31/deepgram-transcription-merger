@@ -288,9 +288,9 @@ class MediaStreamHandler {
                     const params = _this.metaData?.customParameters;
                     console.log('JSON params', JSON.stringify(returnarray));
                     if (params?.call_flow_type === "normal") {
-                      filename = "transcription-normal.json";
+                      filename = `transcription-normal-${Date.now()}.json`;
                     } else if (params?.track1_label) {
-                      filename = `transcription-${params.track1_label}.json`;
+                      filename = `transcription-${params.track1_label}-${Date.now()}.json`;
                     }
                     const filePath = path.join(transcriptionsDir, filename);
                     fs.writeFile(filePath, JSON.stringify(returnarray), (err) => {
