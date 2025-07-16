@@ -147,9 +147,10 @@ function convert(data,offset) {
     let words = [];
     data.channel.alternatives[0].words.forEach(element => {
               let startEndSecs = Math.floor(element.start);
-              let startEndNanos = (element.start % 1).toFixed(4).substring(2,3)+"00000000";
+              let startEndNanos = convertNanosToString(Math.round((element.start - startEndSecs) * 1_000_000_000));
               let endEndSecs = Math.floor(element.end);
-              let endEndNanos = (element.end % 1).toFixed(4).substring(2,3)+"00000000";
+              let endEndNanos = convertNanosToString(Math.round((element.end - endEndSecs) * 1_000_000_000));
+
               let word = {
                 word:element.punctuated_word,
                 startTime:{
@@ -188,6 +189,14 @@ function convert(data,offset) {
       }]
     };
     return final;
+}
+
+function convertNanosToString(nanos) {
+  let nanosString = `${nanos}`;
+  while(nanosString.length < 9){
+    nanosString = '0' + nanosString;
+  }
+  return nanosString;
 }
 
 module.exports = DeepgramService;
