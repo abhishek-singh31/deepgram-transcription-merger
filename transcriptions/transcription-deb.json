@@ -1,0 +1,738 @@
+{
+  "transcription": [
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Hi.",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "550000000",
+                    "finalseconds": 15,
+                    "finalnanos": "550000000"
+                  },
+                  "endTime": {
+                    "seconds": 15,
+                    "nanos": "710000000",
+                    "finalseconds": 15,
+                    "finalnanos": "710000000"
+                  },
+                  "offset_in_recording": 1752606158.65
+                },
+                {
+                  "word": "We",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "710000000",
+                    "finalseconds": 15,
+                    "finalnanos": "710000000"
+                  },
+                  "endTime": {
+                    "seconds": 15,
+                    "nanos": "960000000",
+                    "finalseconds": 15,
+                    "finalnanos": "960000000"
+                  },
+                  "offset_in_recording": 1752606158.81
+                },
+                {
+                  "word": "should",
+                  "startTime": {
+                    "seconds": 15,
+                    "nanos": "960000000",
+                    "finalseconds": 15,
+                    "finalnanos": "960000000"
+                  },
+                  "endTime": {
+                    "seconds": 16,
+                    "nanos": "210000000",
+                    "finalseconds": 16,
+                    "finalnanos": "210000000"
+                  },
+                  "offset_in_recording": 1752606159.06
+                }
+              ],
+              "transcript": "Hi. We should",
+              "confidence": 0.6816406
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": 3.159999590463257,
+          "sno": 1752606157364,
+          "requestid": "1125ff94-8cc8-4e07-a3da-7abb983d0e0c",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "are",
+                  "startTime": {
+                    "seconds": 16,
+                    "nanos": "210000000",
+                    "finalseconds": 16,
+                    "finalnanos": "210000000"
+                  },
+                  "endTime": {
+                    "seconds": 16,
+                    "nanos": "660000000",
+                    "finalseconds": 16,
+                    "finalnanos": "660000000"
+                  },
+                  "offset_in_recording": 1752606159.31
+                },
+                {
+                  "word": "you?",
+                  "startTime": {
+                    "seconds": 16,
+                    "nanos": "660000000",
+                    "finalseconds": 16,
+                    "finalnanos": "660000000"
+                  },
+                  "endTime": {
+                    "seconds": 17,
+                    "nanos": "110000000",
+                    "finalseconds": 17,
+                    "finalnanos": "110000000"
+                  },
+                  "offset_in_recording": 1752606159.76
+                }
+              ],
+              "transcript": "are you?",
+              "confidence": 1
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": 3.160000590463257,
+          "sno": 1752606158261,
+          "requestid": "1125ff94-8cc8-4e07-a3da-7abb983d0e0c",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "I'm",
+                  "startTime": {
+                    "seconds": 19,
+                    "nanos": "090000000",
+                    "finalseconds": 19,
+                    "finalnanos": "090000000"
+                  },
+                  "endTime": {
+                    "seconds": 19,
+                    "nanos": "250000000",
+                    "finalseconds": 19,
+                    "finalnanos": "250000000"
+                  },
+                  "offset_in_recording": 1752606162.19
+                },
+                {
+                  "word": "also",
+                  "startTime": {
+                    "seconds": 19,
+                    "nanos": "250000000",
+                    "finalseconds": 19,
+                    "finalnanos": "250000000"
+                  },
+                  "endTime": {
+                    "seconds": 19,
+                    "nanos": "650000000",
+                    "finalseconds": 19,
+                    "finalnanos": "650000000"
+                  },
+                  "offset_in_recording": 1752606162.35
+                },
+                {
+                  "word": "good.",
+                  "startTime": {
+                    "seconds": 19,
+                    "nanos": "650000000",
+                    "finalseconds": 19,
+                    "finalnanos": "650000000"
+                  },
+                  "endTime": {
+                    "seconds": 20,
+                    "nanos": "150000000",
+                    "finalseconds": 20,
+                    "finalnanos": "150000000"
+                  },
+                  "offset_in_recording": 1752606162.75
+                }
+              ],
+              "transcript": "I'm also good.",
+              "confidence": 0.9453125
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": 5.599999190463256,
+          "sno": 1752606162160,
+          "requestid": "1125ff94-8cc8-4e07-a3da-7abb983d0e0c",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "So",
+                  "startTime": {
+                    "seconds": 22,
+                    "nanos": "200000000",
+                    "finalseconds": 22,
+                    "finalnanos": "200000000"
+                  },
+                  "endTime": {
+                    "seconds": 22,
+                    "nanos": "600000000",
+                    "finalseconds": 22,
+                    "finalnanos": "600000000"
+                  },
+                  "offset_in_recording": 1752606165.3
+                },
+                {
+                  "word": "I'm",
+                  "startTime": {
+                    "seconds": 22,
+                    "nanos": "600000000",
+                    "finalseconds": 22,
+                    "finalnanos": "600000000"
+                  },
+                  "endTime": {
+                    "seconds": 22,
+                    "nanos": "680000000",
+                    "finalseconds": 22,
+                    "finalnanos": "680000000"
+                  },
+                  "offset_in_recording": 1752606165.7
+                },
+                {
+                  "word": "planning",
+                  "startTime": {
+                    "seconds": 22,
+                    "nanos": "680000000",
+                    "finalseconds": 22,
+                    "finalnanos": "680000000"
+                  },
+                  "endTime": {
+                    "seconds": 23,
+                    "nanos": "080000000",
+                    "finalseconds": 23,
+                    "finalnanos": "080000000"
+                  },
+                  "offset_in_recording": 1752606165.78
+                },
+                {
+                  "word": "one",
+                  "startTime": {
+                    "seconds": 23,
+                    "nanos": "080000000",
+                    "finalseconds": 23,
+                    "finalnanos": "080000000"
+                  },
+                  "endTime": {
+                    "seconds": 23,
+                    "nanos": "240000000",
+                    "finalseconds": 23,
+                    "finalnanos": "240000000"
+                  },
+                  "offset_in_recording": 1752606166.18
+                },
+                {
+                  "word": "thing.",
+                  "startTime": {
+                    "seconds": 23,
+                    "nanos": "240000000",
+                    "finalseconds": 23,
+                    "finalnanos": "240000000"
+                  },
+                  "endTime": {
+                    "seconds": 23,
+                    "nanos": "560000000",
+                    "finalseconds": 23,
+                    "finalnanos": "560000000"
+                  },
+                  "offset_in_recording": 1752606166.34
+                },
+                {
+                  "word": "So",
+                  "startTime": {
+                    "seconds": 23,
+                    "nanos": "560000000",
+                    "finalseconds": 23,
+                    "finalnanos": "560000000"
+                  },
+                  "endTime": {
+                    "seconds": 23,
+                    "nanos": "800000000",
+                    "finalseconds": 23,
+                    "finalnanos": "800000000"
+                  },
+                  "offset_in_recording": 1752606166.66
+                },
+                {
+                  "word": "if",
+                  "startTime": {
+                    "seconds": 23,
+                    "nanos": "800000000",
+                    "finalseconds": 23,
+                    "finalnanos": "800000000"
+                  },
+                  "endTime": {
+                    "seconds": 24,
+                    "nanos": "040000000",
+                    "finalseconds": 24,
+                    "finalnanos": "040000000"
+                  },
+                  "offset_in_recording": 1752606166.9
+                },
+                {
+                  "word": "this",
+                  "startTime": {
+                    "seconds": 24,
+                    "nanos": "040000000",
+                    "finalseconds": 24,
+                    "finalnanos": "040000000"
+                  },
+                  "endTime": {
+                    "seconds": 24,
+                    "nanos": "280000000",
+                    "finalseconds": 24,
+                    "finalnanos": "280000000"
+                  },
+                  "offset_in_recording": 1752606167.14
+                },
+                {
+                  "word": "thing",
+                  "startTime": {
+                    "seconds": 24,
+                    "nanos": "280000000",
+                    "finalseconds": 24,
+                    "finalnanos": "280000000"
+                  },
+                  "endTime": {
+                    "seconds": 24,
+                    "nanos": "520000000",
+                    "finalseconds": 24,
+                    "finalnanos": "520000000"
+                  },
+                  "offset_in_recording": 1752606167.38
+                },
+                {
+                  "word": "work,",
+                  "startTime": {
+                    "seconds": 24,
+                    "nanos": "520000000",
+                    "finalseconds": 24,
+                    "finalnanos": "520000000"
+                  },
+                  "endTime": {
+                    "seconds": 25,
+                    "nanos": "020000000",
+                    "finalseconds": 25,
+                    "finalnanos": "020000000"
+                  },
+                  "offset_in_recording": 1752606167.62
+                }
+              ],
+              "transcript": "So I'm planning one thing. So if this thing work,",
+              "confidence": 0.9921875
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": false,
+          "resultEndTime": 5.339999990463257,
+          "sno": 1752606168142,
+          "requestid": "1125ff94-8cc8-4e07-a3da-7abb983d0e0c",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "please",
+                  "startTime": {
+                    "seconds": 25,
+                    "nanos": "040000000",
+                    "finalseconds": 25,
+                    "finalnanos": "040000000"
+                  },
+                  "endTime": {
+                    "seconds": 25,
+                    "nanos": "540000000",
+                    "finalseconds": 25,
+                    "finalnanos": "540000000"
+                  },
+                  "offset_in_recording": 1752606168.14
+                },
+                {
+                  "word": "say",
+                  "startTime": {
+                    "seconds": 25,
+                    "nanos": "680000000",
+                    "finalseconds": 25,
+                    "finalnanos": "680000000"
+                  },
+                  "endTime": {
+                    "seconds": 25,
+                    "nanos": "920000000",
+                    "finalseconds": 25,
+                    "finalnanos": "920000000"
+                  },
+                  "offset_in_recording": 1752606168.78
+                },
+                {
+                  "word": "something,",
+                  "startTime": {
+                    "seconds": 25,
+                    "nanos": "920000000",
+                    "finalseconds": 25,
+                    "finalnanos": "920000000"
+                  },
+                  "endTime": {
+                    "seconds": 26,
+                    "nanos": "310000000",
+                    "finalseconds": 26,
+                    "finalnanos": "310000000"
+                  },
+                  "offset_in_recording": 1752606169.02
+                },
+                {
+                  "word": "a",
+                  "startTime": {
+                    "seconds": 26,
+                    "nanos": "310000000",
+                    "finalseconds": 26,
+                    "finalnanos": "310000000"
+                  },
+                  "endTime": {
+                    "seconds": 26,
+                    "nanos": "560000000",
+                    "finalseconds": 26,
+                    "finalnanos": "560000000"
+                  },
+                  "offset_in_recording": 1752606169.41
+                },
+                {
+                  "word": "complete",
+                  "startTime": {
+                    "seconds": 26,
+                    "nanos": "560000000",
+                    "finalseconds": 26,
+                    "finalnanos": "560000000"
+                  },
+                  "endTime": {
+                    "seconds": 26,
+                    "nanos": "880000000",
+                    "finalseconds": 26,
+                    "finalnanos": "880000000"
+                  },
+                  "offset_in_recording": 1752606169.66
+                },
+                {
+                  "word": "sentence.",
+                  "startTime": {
+                    "seconds": 26,
+                    "nanos": "880000000",
+                    "finalseconds": 26,
+                    "finalnanos": "880000000"
+                  },
+                  "endTime": {
+                    "seconds": 27,
+                    "nanos": "380000000",
+                    "finalseconds": 27,
+                    "finalnanos": "380000000"
+                  },
+                  "offset_in_recording": 1752606169.98
+                }
+              ],
+              "transcript": "please say something, a complete sentence.",
+              "confidence": 0.96972656
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": 4.909999590463257,
+          "sno": 1752606168874,
+          "requestid": "1125ff94-8cc8-4e07-a3da-7abb983d0e0c",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Okay.",
+                  "startTime": {
+                    "seconds": 33,
+                    "nanos": "750000000",
+                    "finalseconds": 33,
+                    "finalnanos": "750000000"
+                  },
+                  "endTime": {
+                    "seconds": 34,
+                    "nanos": "150000000",
+                    "finalseconds": 34,
+                    "finalnanos": "150000000"
+                  },
+                  "offset_in_recording": 1752606176.85
+                },
+                {
+                  "word": "Is",
+                  "startTime": {
+                    "seconds": 34,
+                    "nanos": "150000000",
+                    "finalseconds": 34,
+                    "finalnanos": "150000000"
+                  },
+                  "endTime": {
+                    "seconds": 34,
+                    "nanos": "310000000",
+                    "finalseconds": 34,
+                    "finalnanos": "310000000"
+                  },
+                  "offset_in_recording": 1752606177.25
+                },
+                {
+                  "word": "my",
+                  "startTime": {
+                    "seconds": 34,
+                    "nanos": "310000000",
+                    "finalseconds": 34,
+                    "finalnanos": "310000000"
+                  },
+                  "endTime": {
+                    "seconds": 34,
+                    "nanos": "550000000",
+                    "finalseconds": 34,
+                    "finalnanos": "550000000"
+                  },
+                  "offset_in_recording": 1752606177.41
+                },
+                {
+                  "word": "voice",
+                  "startTime": {
+                    "seconds": 34,
+                    "nanos": "550000000",
+                    "finalseconds": 34,
+                    "finalnanos": "550000000"
+                  },
+                  "endTime": {
+                    "seconds": 35,
+                    "nanos": "050000000",
+                    "finalseconds": 35,
+                    "finalnanos": "050000000"
+                  },
+                  "offset_in_recording": 1752606177.65
+                },
+                {
+                  "word": "fine",
+                  "startTime": {
+                    "seconds": 35,
+                    "nanos": "270000000",
+                    "finalseconds": 35,
+                    "finalnanos": "270000000"
+                  },
+                  "endTime": {
+                    "seconds": 35,
+                    "nanos": "770000000",
+                    "finalseconds": 35,
+                    "finalnanos": "770000000"
+                  },
+                  "offset_in_recording": 1752606178.37
+                },
+                {
+                  "word": "now?",
+                  "startTime": {
+                    "seconds": 35,
+                    "nanos": "910000000",
+                    "finalseconds": 35,
+                    "finalnanos": "910000000"
+                  },
+                  "endTime": {
+                    "seconds": 36,
+                    "nanos": "410000000",
+                    "finalseconds": 36,
+                    "finalnanos": "410000000"
+                  },
+                  "offset_in_recording": 1752606179.01
+                }
+              ],
+              "transcript": "Okay. Is my voice fine now?",
+              "confidence": 0.99609375
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": 6.919999990463257,
+          "sno": 1752606178383,
+          "requestid": "1125ff94-8cc8-4e07-a3da-7abb983d0e0c",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "words": [
+                {
+                  "word": "Okay.",
+                  "startTime": {
+                    "seconds": 38,
+                    "nanos": "440000000",
+                    "finalseconds": 38,
+                    "finalnanos": "440000000"
+                  },
+                  "endTime": {
+                    "seconds": 38,
+                    "nanos": "760000000",
+                    "finalseconds": 38,
+                    "finalnanos": "760000000"
+                  },
+                  "offset_in_recording": 1752606181.54
+                },
+                {
+                  "word": "Thank",
+                  "startTime": {
+                    "seconds": 38,
+                    "nanos": "760000000",
+                    "finalseconds": 38,
+                    "finalnanos": "760000000"
+                  },
+                  "endTime": {
+                    "seconds": 38,
+                    "nanos": "000000000",
+                    "finalseconds": 38,
+                    "finalnanos": "000000000"
+                  },
+                  "offset_in_recording": 1752606181.86
+                },
+                {
+                  "word": "you,",
+                  "startTime": {
+                    "seconds": 38,
+                    "nanos": "000000000",
+                    "finalseconds": 38,
+                    "finalnanos": "000000000"
+                  },
+                  "endTime": {
+                    "seconds": 39,
+                    "nanos": "240000000",
+                    "finalseconds": 39,
+                    "finalnanos": "240000000"
+                  },
+                  "offset_in_recording": 1752606181.1
+                },
+                {
+                  "word": "and",
+                  "startTime": {
+                    "seconds": 39,
+                    "nanos": "240000000",
+                    "finalseconds": 39,
+                    "finalnanos": "240000000"
+                  },
+                  "endTime": {
+                    "seconds": 39,
+                    "nanos": "560000000",
+                    "finalseconds": 39,
+                    "finalnanos": "560000000"
+                  },
+                  "offset_in_recording": 1752606182.34
+                },
+                {
+                  "word": "bye.",
+                  "startTime": {
+                    "seconds": 39,
+                    "nanos": "560000000",
+                    "finalseconds": 39,
+                    "finalnanos": "560000000"
+                  },
+                  "endTime": {
+                    "seconds": 40,
+                    "nanos": "060000000",
+                    "finalseconds": 40,
+                    "finalnanos": "060000000"
+                  },
+                  "offset_in_recording": 1752606182.66
+                }
+              ],
+              "transcript": "Okay. Thank you, and bye.",
+              "confidence": 0.9909668
+            }
+          ],
+          "isFinal": true,
+          "speechFinal": true,
+          "resultEndTime": 5.380002690463257,
+          "sno": 1752606181991,
+          "requestid": "1125ff94-8cc8-4e07-a3da-7abb983d0e0c",
+          "track": 1,
+          "participant_label": "deb"
+        }
+      ]
+    }
+  ],
+  "completetranscription": "Hi. We should are you? I'm also good. So I'm planning one thing. So if this thing work, please say something, a complete sentence. Okay. Is my voice fine now? Okay. Thank you, and bye. ",
+  "datetime": 1752606183,
+  "startTime": 1752606143,
+  "endTime": 1752606183,
+  "callduration": 40,
+  "participant_label": "",
+  "metadata": {
+    "accountSid": "AC3b6ada2609ecb3e3faa82bfe0564a4ac",
+    "streamSid": "MZ17dda2193eb253954d25454c720fd2db",
+    "callSid": "CA6c1b29e5d4f9e38b1b3a83b604405ff3",
+    "tracks": [
+      "inbound",
+      "outbound"
+    ],
+    "mediaFormat": {
+      "encoding": "audio/x-mulaw",
+      "sampleRate": 8000,
+      "channels": 1
+    },
+    "customParameters": {
+      "recording_start_time_in_epoch_seconds": "0",
+      "call_flow_type": "conference",
+      "track1_label": "deb",
+      "stream_start_time_in_epoch_seconds": "1752606141.748638",
+      "track0_label": "conference"
+    }
+  }
+}
